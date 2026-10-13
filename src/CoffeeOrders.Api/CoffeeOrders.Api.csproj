@@ -17,13 +17,6 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Features\Orders\CreateOrder\" />
-    <Folder Include="Features\Orders\DeleteOrder\" />
-    <Folder Include="Features\Orders\GetOrderDetails\" />
-    <Folder Include="Features\Orders\GetOrders\" />
-    <Folder Include="Features\Orders\UpdateOrder\" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\CoffeeOrders.Infrastructure\CoffeeOrders.Infrastructure.csproj" />
   </ItemGroup>
 </Project>
