@@ -1,0 +1,8 @@
+<Solution>
+    <Folder Name="/Solution Items/">
+        <File Path="compose.yaml"/>
+    </Folder>
+    <Project Path="src/CoffeeOrders.Api/CoffeeOrders.Api.csproj"/>
+    <Project Path="src/CoffeeOrders.Domain/CoffeeOrders.Domain.csproj"/>
+    <Project Path="src/CoffeeOrders.Infrastructure/CoffeeOrders.Infrastructure.csproj"/>
+</Solution>

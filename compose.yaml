@@ -1,0 +1,7 @@
+﻿services:
+  coffeeorders.api:
+    image: coffeeorders.api
+    build:
+      context: .
+      dockerfile: src/CoffeeOrders.Api/Dockerfile
+
