@@ -14,10 +14,15 @@ public class CoffeeConfiguration : IEntityTypeConfiguration<Coffee>
 
         builder.Property(x => x.SkuCode).IsRequired().HasMaxLength(10).IsFixedLength();
 
+        builder.Property(x => x.Description).HasMaxLength(1000);
+
         builder
             .HasMany(x => x.Orders)
             .WithOne()
             .HasForeignKey(o => o.CoffeeId)
             .OnDelete(DeleteBehavior.Cascade);
+
+        builder.Property(x => x.CreatedBy).HasMaxLength(500);
+        builder.Property(x => x.UpdatedBy).HasMaxLength(500);
     }
 }
