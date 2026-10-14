@@ -17,4 +17,7 @@
     <PackageReference Include="WolverineFx.EntityFrameworkCore" Version="6.49.0" />
     <PackageReference Include="WolverineFx.SqlServer" Version="6.49.0" />
   </ItemGroup>
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
 </Project>

@@ -8,4 +8,6 @@ public class Coffee : Entity
     public string? Description { get; set; }
     public required string SkuCode { get; set; }
     public string? Photo { get; set; }
+
+    public List<Order> Orders { get; set; } = [];
 }
