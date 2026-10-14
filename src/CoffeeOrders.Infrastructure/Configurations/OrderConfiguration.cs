@@ -14,5 +14,11 @@ public class OrderConfiguration : IEntityTypeConfiguration<Order>
 
         builder.Property(x => x.Total).IsRequired();
         builder.Property(x => x.Size).IsRequired();
+
+        builder.Property(x => x.OrderName).IsRequired().HasMaxLength(500);
+        builder.Property(x => x.Status).IsRequired().HasMaxLength(25);
+
+        builder.Property(x => x.CreatedBy).HasMaxLength(500);
+        builder.Property(x => x.UpdatedBy).HasMaxLength(500);
     }
 }
