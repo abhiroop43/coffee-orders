@@ -1,3 +1,3 @@
 namespace CoffeeOrders.Api.Features.Orders.ClearAllOrders;
 
-public class ClearAllOrderCommand { }
+public sealed record ClearAllOrderCommand();
