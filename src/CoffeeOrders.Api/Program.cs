@@ -4,7 +4,7 @@ using CoffeeOrders.Infrastructure.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddInfrastructureServices(builder.Configuration).AddApiServices();
+builder.Services.AddInfrastructureServices(builder.Configuration).AddApiServices(builder.Host);
 
 var app = builder.Build();
 

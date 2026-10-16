@@ -1,12 +1,27 @@
+using Carter;
+using Wolverine;
+using Wolverine.EntityFrameworkCore;
+
 namespace CoffeeOrders.Api;
 
 public static class DependencyInjection
 {
-    public static IServiceCollection AddApiServices(this IServiceCollection services)
+    public static IServiceCollection AddApiServices(
+        this IServiceCollection services,
+        ConfigureHostBuilder hostBuilder
+    )
     {
         // Add services to the container.
         // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
         services.AddOpenApi();
+        services.AddProblemDetails();
+
+        services.AddCarter();
+
+        hostBuilder.UseWolverine(opts =>
+        {
+            opts.UseEntityFrameworkCoreTransactions();
+        });
 
         return services;
     }
@@ -20,6 +35,8 @@ public static class DependencyInjection
         }
 
         app.UseHttpsRedirection();
+
+        app.MapCarter();
         return app;
     }
 }
