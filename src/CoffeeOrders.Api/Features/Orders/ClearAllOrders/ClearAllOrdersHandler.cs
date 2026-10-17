@@ -7,7 +7,8 @@ public sealed class ClearAllOrdersHandler
 {
     private ClearAllOrdersHandler() { }
 
-    public static async Task Handler(
+    public static async Task Handle(
+        ClearAllOrderCommand _,
         ApplicationDbContext dbContext,
         CancellationToken cancellationToken
     )
