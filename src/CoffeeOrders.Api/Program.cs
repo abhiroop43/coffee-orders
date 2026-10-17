@@ -1,7 +1,3 @@
-using CoffeeOrders.Api;
-using CoffeeOrders.Infrastructure;
-using CoffeeOrders.Infrastructure.Extensions;
-
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddInfrastructureServices(builder.Configuration).AddApiServices(builder.Host);

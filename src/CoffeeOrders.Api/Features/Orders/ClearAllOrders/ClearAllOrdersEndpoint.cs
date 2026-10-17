@@ -1,6 +1,3 @@
-using Carter;
-using Wolverine;
-
 namespace CoffeeOrders.Api.Features.Orders.ClearAllOrders;
 
 public class ClearAllOrdersEndpoint : ICarterModule

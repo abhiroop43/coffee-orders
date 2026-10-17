@@ -1,3 +1,9 @@
-namespace CoffeeOrders.Api;
-
-public class GlobalUsing { }
+global using Carter;
+global using CoffeeOrders.Api;
+global using CoffeeOrders.Api.Dtos;
+global using CoffeeOrders.Api.Shared.Pagination;
+global using CoffeeOrders.Infrastructure;
+global using CoffeeOrders.Infrastructure.Extensions;
+global using Microsoft.AspNetCore.Mvc;
+global using Wolverine;
+global using Wolverine.EntityFrameworkCore;

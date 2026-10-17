@@ -1,9 +1,3 @@
-using Carter;
-using CoffeeOrders.Api.Dtos;
-using CoffeeOrders.Api.Shared.Pagination;
-using Microsoft.AspNetCore.Mvc;
-using Wolverine;
-
 namespace CoffeeOrders.Api.Features.Coffees.GetCoffees;
 
 public sealed record GetCoffeesResponse(PaginationResponse<CoffeeDto> Items);
@@ -13,7 +7,7 @@ public class GetCoffeesEndpoint : ICarterModule
     public void AddRoutes(IEndpointRouteBuilder app)
     {
         app.MapGet(
-                "/api/coffee",
+                "/api/coffees",
                 async (
                     [FromQuery] int? pageNumber,
                     [FromQuery] int? pageSize,

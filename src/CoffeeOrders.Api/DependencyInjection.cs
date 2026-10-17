@@ -1,7 +1,3 @@
-using Carter;
-using Wolverine;
-using Wolverine.EntityFrameworkCore;
-
 namespace CoffeeOrders.Api;
 
 public static class DependencyInjection

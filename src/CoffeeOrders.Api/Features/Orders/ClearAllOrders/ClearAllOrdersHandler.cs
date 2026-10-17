@@ -10,11 +10,12 @@ public sealed class ClearAllOrdersHandler
     public static async Task Handle(
         ClearAllOrderCommand _,
         ApplicationDbContext dbContext,
+        ILogger<ClearAllOrdersHandler> logger,
         CancellationToken cancellationToken
     )
     {
-        await dbContext.Orders.ExecuteDeleteAsync(cancellationToken);
+        var deletedCount = await dbContext.Orders.ExecuteDeleteAsync(cancellationToken);
 
-        // log the deletion activity and the record count deleted
+        logger.LogInformation("Deleted {Count} orders", deletedCount);
     }
 }
