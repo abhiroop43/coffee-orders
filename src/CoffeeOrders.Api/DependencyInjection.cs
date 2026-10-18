@@ -1,3 +1,6 @@
+using System.Reflection;
+using FluentValidation;
+
 namespace CoffeeOrders.Api;
 
 public static class DependencyInjection
@@ -12,7 +15,12 @@ public static class DependencyInjection
         services.AddOpenApi();
         services.AddProblemDetails();
 
-        services.AddCarter();
+        services.AddCarter(configurator: configurator =>
+        {
+            configurator.WithDefaultValidatorLifetime(ServiceLifetime.Scoped);
+        });
+
+        services.AddValidatorsFromAssembly(Assembly.GetExecutingAssembly(), ServiceLifetime.Scoped);
 
         hostBuilder.UseWolverine(opts =>
         {
@@ -26,9 +34,7 @@ public static class DependencyInjection
     {
         // Configure the HTTP request pipeline.
         if (app.Environment.IsDevelopment())
-        {
             app.MapOpenApi();
-        }
 
         app.UseHttpsRedirection();
 

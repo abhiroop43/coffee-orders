@@ -1,3 +1,5 @@
+using Mapster;
+
 namespace CoffeeOrders.Api.Features.Orders.CreateOrder;
 
 public sealed record CreateOrderRequest(
@@ -20,7 +22,17 @@ public class CreateOrderEndpoint : ICarterModule
                     [FromBody] CreateOrderRequest request,
                     IMessageBus bus,
                     CancellationToken cancellationToken
-                ) => { }
+                ) =>
+                {
+                    var command = request.Adapt<CreateOrderCommand>();
+
+                    var response = await bus.InvokeAsync<CreateOrderResponse>(
+                        command,
+                        cancellationToken
+                    );
+
+                    return Results.Ok(response);
+                }
             )
             .WithName("CreateOrder")
             .WithSummary("Create Order")
