@@ -1,4 +1,6 @@
+using CoffeeOrders.Infrastructure.Interceptors;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Diagnostics;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -13,9 +15,14 @@ public static class DependencyInjection
     {
         var connectionString = configuration.GetConnectionString("CoffeeOrders");
         services.AddHttpContextAccessor();
+        services.AddScoped<ISaveChangesInterceptor, AuditableEntityInterceptor>();
 
-        services.AddDbContext<ApplicationDbContext>(options =>
-            options.UseSqlServer(connectionString).EnableSensitiveDataLogging()
+        services.AddDbContext<ApplicationDbContext>(
+            (sp, options) =>
+            {
+                options.AddInterceptors(sp.GetServices<ISaveChangesInterceptor>());
+                options.UseSqlServer(connectionString).EnableSensitiveDataLogging();
+            }
         );
 
         services.AddOptions();
