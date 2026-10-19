@@ -1,3 +1,4 @@
+using CoffeeOrders.Api.Shared.Middleware;
 using Mapster;
 
 namespace CoffeeOrders.Api.Features.Orders.CreateOrder;
@@ -34,6 +35,7 @@ public class CreateOrderEndpoint : ICarterModule
                     return Results.Ok(response);
                 }
             )
+            .AddEndpointFilter<ValidationMiddleware<CreateOrderRequest>>()
             .WithName("CreateOrder")
             .WithSummary("Create Order")
             .WithDescription("Create a new order")

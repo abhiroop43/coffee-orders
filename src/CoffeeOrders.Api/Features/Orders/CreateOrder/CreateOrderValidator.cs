@@ -35,7 +35,10 @@ public class CreateOrderValidator : AbstractValidator<CreateOrderRequest>
             .Must(SizeExists)
             .WithMessage("Invalid order size provided");
 
-        RuleFor(x => x.Status).Must(StatusExists).WithMessage("Invalid order status provided");
+        RuleFor(x => x.Status)
+            .Must(StatusExists)
+            .WithMessage("Invalid order status provided")
+            .When(x => !string.IsNullOrWhiteSpace(x.Status));
     }
 
     private static bool StatusExists(string? orderStatus)
@@ -67,9 +70,8 @@ public class CreateOrderValidator : AbstractValidator<CreateOrderRequest>
         CancellationToken cancellationToken
     )
     {
-        var coffeeExists = await _dbContext
+        return await _dbContext
             .Coffees.AsNoTracking()
-            .FirstOrDefaultAsync(x => x.Id == coffeeId && x.IsActive, cancellationToken);
-        return coffeeExists != null;
+            .AnyAsync(x => x.Id == coffeeId && x.IsActive, cancellationToken);
     }
 }

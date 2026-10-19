@@ -15,12 +15,11 @@ public static class DependencyInjection
         services.AddOpenApi();
         services.AddProblemDetails();
 
-        services.AddCarter(configurator: configurator =>
-        {
-            configurator.WithDefaultValidatorLifetime(ServiceLifetime.Scoped);
-        });
+        services.AddCarter(configurator: c =>
+            c.WithDefaultValidatorLifetime(ServiceLifetime.Scoped)
+        );
 
-        services.AddValidatorsFromAssembly(Assembly.GetExecutingAssembly(), ServiceLifetime.Scoped);
+        services.AddValidatorsFromAssembly(Assembly.GetExecutingAssembly());
 
         hostBuilder.UseWolverine(opts =>
         {
