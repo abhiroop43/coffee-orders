@@ -1,3 +1,3 @@
 namespace CoffeeOrders.Api.Features.Orders.GetOrders;
 
-public class GetOrdersQuery { }
+public sealed record GetOrdersQuery(PaginationRequest PaginationRequest, string? Search);

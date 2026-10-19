@@ -1,6 +1,3 @@
-using CoffeeOrders.Api.Dtos;
-using CoffeeOrders.Api.Shared.Pagination;
-using CoffeeOrders.Infrastructure;
 using Mapster;
 using Microsoft.EntityFrameworkCore;
 
@@ -44,7 +41,7 @@ public sealed class GetCoffeeHandler
             .Skip(pageIndex * pageSize)
             .Take(pageSize)
             .ProjectToType<CoffeeDto>()
-            .ToListAsync(cancellationToken: cancellationToken);
+            .ToListAsync(cancellationToken);
 
         var result = new PaginationResponse<CoffeeDto>(
             query.PaginationRequest.PageNumber,
