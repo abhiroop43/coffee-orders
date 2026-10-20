@@ -1,5 +1,6 @@
 using System.Reflection;
 using FluentValidation;
+using Scalar.AspNetCore;
 
 namespace CoffeeOrders.Api;
 
@@ -33,7 +34,10 @@ public static class DependencyInjection
     {
         // Configure the HTTP request pipeline.
         if (app.Environment.IsDevelopment())
+        {
             app.MapOpenApi();
+            app.MapScalarApiReference();
+        }
 
         app.UseHttpsRedirection();
 
