@@ -1,0 +1,16 @@
+---
+source_file: "src/CoffeeOrders.Api/CoffeeOrders.Api.csproj"
+type: "concept"
+community: "Solution and NuGet Packages"
+tags:
+  - graphify/concept
+  - graphify/EXTRACTED
+  - community/Solution_and_NuGet_Packages
+---
+
+# Microsoft.NET.Sdk.Web
+
+## Connections
+- [[CoffeeOrders.Api.csproj]] - `references` [EXTRACTED]
+
+#graphify/concept #graphify/EXTRACTED #community/Solution_and_NuGet_Packages

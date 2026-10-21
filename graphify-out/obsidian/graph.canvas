@@ -1,0 +1,3942 @@
+{
+  "nodes": [
+    {
+      "id": "g0",
+      "type": "group",
+      "label": "DTOs and Migrations",
+      "x": 0,
+      "y": 0,
+      "width": 1320,
+      "height": 720,
+      "color": "1"
+    },
+    {
+      "id": "n_src_coffeeorders_api_features_orders_createorder_createorderendpoint_coffeeorders_api_features_orders_createorder_createorderendpoint_addroutes",
+      "type": "file",
+      "file": "dot-AddRoutes().md",
+      "x": 20,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_infrastructure_migrations_applicationdbcontextmodelsnapshot_coffeeorders_infrastructure_migrations_applicationdbcontextmodelsnapshot_buildmodel",
+      "type": "file",
+      "file": "dot-BuildModel().md",
+      "x": 220,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_infrastructure_migrations_20261014080243_initialcreate_designer_coffeeorders_infrastructure_migrations_initialcreate_buildtargetmodel",
+      "type": "file",
+      "file": "dot-BuildTargetModel().md",
+      "x": 420,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_infrastructure_migrations_20261014081200_columnsizes_designer_coffeeorders_infrastructure_migrations_columnsizes_buildtargetmodel",
+      "type": "file",
+      "file": "dot-BuildTargetModel()_1.md",
+      "x": 620,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_infrastructure_migrations_20261014080243_initialcreate_coffeeorders_infrastructure_migrations_initialcreate_down",
+      "type": "file",
+      "file": "dot-Down().md",
+      "x": 820,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_infrastructure_migrations_20261014081200_columnsizes_coffeeorders_infrastructure_migrations_columnsizes_down",
+      "type": "file",
+      "file": "dot-Down()_1.md",
+      "x": 1020,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_infrastructure_applicationdbcontext_coffeeorders_infrastructure_applicationdbcontext_onmodelcreating",
+      "type": "file",
+      "file": "dot-OnModelCreating().md",
+      "x": 20,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_infrastructure_migrations_20261014080243_initialcreate_coffeeorders_infrastructure_migrations_initialcreate_up",
+      "type": "file",
+      "file": "dot-Up().md",
+      "x": 220,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_infrastructure_migrations_20261014081200_columnsizes_coffeeorders_infrastructure_migrations_columnsizes_up",
+      "type": "file",
+      "file": "dot-Up()_1.md",
+      "x": 420,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_infrastructure_migrations_applicationdbcontextmodelsnapshot_coffeeorders_infrastructure_migrations_applicationdbcontextmodelsnapshot",
+      "type": "file",
+      "file": "ApplicationDbContextModelSnapshot.md",
+      "x": 620,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_api_dtos_coffeedto_coffeeorders_api_dtos_coffeedto",
+      "type": "file",
+      "file": "CoffeeDto.md",
+      "x": 820,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_api_dtos_coffeedto",
+      "type": "file",
+      "file": "CoffeeDto.cs.md",
+      "x": 1020,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_csharp_namespace:863f30f30ecfef2e",
+      "type": "file",
+      "file": "CoffeeOrders.Api.Dtos.md",
+      "x": 20,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_infrastructure_migrations_20261014081200_columnsizes_designer_coffeeorders_infrastructure_migrations_columnsizes",
+      "type": "file",
+      "file": "ColumnSizes.md",
+      "x": 220,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_api_features_orders_createorder_createordercommand_coffeeorders_api_features_orders_createorder_createordercommand",
+      "type": "file",
+      "file": "CreateOrderCommand.md",
+      "x": 420,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_api_features_orders_createorder_createorderendpoint_coffeeorders_api_features_orders_createorder_createorderrequest",
+      "type": "file",
+      "file": "CreateOrderRequest.md",
+      "x": 620,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_domain_common_entity_coffeeorders_domain_common_entity_createdby",
+      "type": "file",
+      "file": "CreatedBy.md",
+      "x": 820,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_domain_common_entity_coffeeorders_domain_common_entity_createddate",
+      "type": "file",
+      "file": "CreatedDate.md",
+      "x": 1020,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_datetime",
+      "type": "file",
+      "file": "DateTime.md",
+      "x": 20,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_domain_common_entity_coffeeorders_domain_common_entity",
+      "type": "file",
+      "file": "Entity.md",
+      "x": 220,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_guid",
+      "type": "file",
+      "file": "Guid.md",
+      "x": 420,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_domain_common_entity_coffeeorders_domain_common_entity_id",
+      "type": "file",
+      "file": "Id.md",
+      "x": 620,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_infrastructure_migrations_20261014080243_initialcreate_designer_coffeeorders_infrastructure_migrations_initialcreate",
+      "type": "file",
+      "file": "InitialCreate.md",
+      "x": 820,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_domain_common_entity_coffeeorders_domain_common_entity_isactive",
+      "type": "file",
+      "file": "IsActive.md",
+      "x": 1020,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_migration",
+      "type": "file",
+      "file": "Migration.md",
+      "x": 20,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_migrationbuilder",
+      "type": "file",
+      "file": "MigrationBuilder.md",
+      "x": 220,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_modelbuilder",
+      "type": "file",
+      "file": "ModelBuilder.md",
+      "x": 420,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_modelsnapshot",
+      "type": "file",
+      "file": "ModelSnapshot.md",
+      "x": 620,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_api_dtos_orderdto_coffeeorders_api_dtos_orderdto",
+      "type": "file",
+      "file": "OrderDto.md",
+      "x": 820,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_api_dtos_orderdto",
+      "type": "file",
+      "file": "OrderDto.cs.md",
+      "x": 1020,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_domain_common_entity_coffeeorders_domain_common_entity_updatedby",
+      "type": "file",
+      "file": "UpdatedBy.md",
+      "x": 20,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_domain_common_entity_coffeeorders_domain_common_entity_updateddate",
+      "type": "file",
+      "file": "UpdatedDate.md",
+      "x": 220,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g1",
+      "type": "group",
+      "label": "Order Handlers and Validation",
+      "x": 1400,
+      "y": 0,
+      "width": 1320,
+      "height": 620,
+      "color": "2"
+    },
+    {
+      "id": "n_src_coffeeorders_api_features_orders_getorders_getordersendpoint_coffeeorders_api_features_orders_getorders_getordersendpoint_addroutes",
+      "type": "file",
+      "file": "dot-AddRoutes()_1.md",
+      "x": 1420,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_api_features_orders_createorder_createordervalidator_coffeeorders_api_features_orders_createorder_createordervalidator_coffeeidexistsandactiveasync",
+      "type": "file",
+      "file": "dot-CoffeeIdExistsAndActiveAsync().md",
+      "x": 1620,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_api_features_orders_clearallorders_clearallordershandler_coffeeorders_api_features_orders_clearallorders_clearallordershandler_handle",
+      "type": "file",
+      "file": "dot-Handle().md",
+      "x": 1820,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_api_features_orders_createorder_createorderhandler_coffeeorders_api_features_orders_createorder_createorderhandler_handle",
+      "type": "file",
+      "file": "dot-Handle()_1.md",
+      "x": 2020,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_api_features_orders_getorders_getordershandler_coffeeorders_api_features_orders_getorders_getordershandler_handle",
+      "type": "file",
+      "file": "dot-Handle()_2.md",
+      "x": 2220,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_infrastructure_extensions_databaseextensions_coffeeorders_infrastructure_extensions_databaseextensions_haschangedownentities",
+      "type": "file",
+      "file": "dot-HasChangedOwnEntities().md",
+      "x": 2420,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_infrastructure_extensions_databaseextensions_coffeeorders_infrastructure_extensions_databaseextensions_initializedatabaseasync",
+      "type": "file",
+      "file": "dot-InitializeDatabaseAsync().md",
+      "x": 1420,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_api_features_orders_createorder_createordervalidator_coffeeorders_api_features_orders_createorder_createordervalidator_sizeexists",
+      "type": "file",
+      "file": "dot-SizeExists().md",
+      "x": 1620,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_api_features_orders_createorder_createordervalidator_coffeeorders_api_features_orders_createorder_createordervalidator_statusexists",
+      "type": "file",
+      "file": "dot-StatusExists().md",
+      "x": 1820,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_abstractvalidator",
+      "type": "file",
+      "file": "AbstractValidator.md",
+      "x": 2020,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_applicationdbcontext",
+      "type": "file",
+      "file": "ApplicationDbContext_1.md",
+      "x": 2220,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_cancellationtoken",
+      "type": "file",
+      "file": "CancellationToken.md",
+      "x": 2420,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_api_features_orders_clearallorders_clearallordershandler_coffeeorders_api_features_orders_clearallorders_clearallordershandler",
+      "type": "file",
+      "file": "ClearAllOrdersHandler.md",
+      "x": 1420,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_csharp_namespace:6aafd9989e101ec2",
+      "type": "file",
+      "file": "CoffeeOrders.Api.Features.Orders.GetOrders.md",
+      "x": 1620,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_api_features_orders_createorder_createorderendpoint_coffeeorders_api_features_orders_createorder_createorderresponse",
+      "type": "file",
+      "file": "CreateOrderResponse.md",
+      "x": 1820,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_api_features_orders_createorder_createordervalidator_coffeeorders_api_features_orders_createorder_createordervalidator",
+      "type": "file",
+      "file": "CreateOrderValidator.md",
+      "x": 2020,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_infrastructure_extensions_databaseextensions_coffeeorders_infrastructure_extensions_databaseextensions",
+      "type": "file",
+      "file": "DatabaseExtensions.md",
+      "x": 2220,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_entityentry",
+      "type": "file",
+      "file": "EntityEntry.md",
+      "x": 2420,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_api_features_orders_getorders_getordersendpoint_coffeeorders_api_features_orders_getorders_getordersendpoint",
+      "type": "file",
+      "file": "GetOrdersEndpoint.md",
+      "x": 1420,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_api_features_orders_getorders_getordersendpoint",
+      "type": "file",
+      "file": "GetOrdersEndpoint.cs.md",
+      "x": 1620,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_api_features_orders_getorders_getordershandler_coffeeorders_api_features_orders_getorders_getordershandler",
+      "type": "file",
+      "file": "GetOrdersHandler.md",
+      "x": 1820,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_api_features_orders_getorders_getordershandler",
+      "type": "file",
+      "file": "GetOrdersHandler.cs.md",
+      "x": 2020,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_api_features_orders_getorders_getordersquery_coffeeorders_api_features_orders_getorders_getordersquery",
+      "type": "file",
+      "file": "GetOrdersQuery.md",
+      "x": 2220,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_api_features_orders_getorders_getordersquery",
+      "type": "file",
+      "file": "GetOrdersQuery.cs.md",
+      "x": 2420,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_api_features_orders_getorders_getordersendpoint_coffeeorders_api_features_orders_getorders_getordersresponse",
+      "type": "file",
+      "file": "GetOrdersResponse.md",
+      "x": 1420,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ilogger",
+      "type": "file",
+      "file": "ILogger.md",
+      "x": 1620,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_orderdto",
+      "type": "file",
+      "file": "OrderDto_1.md",
+      "x": 1820,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_paginationrequest",
+      "type": "file",
+      "file": "PaginationRequest_1.md",
+      "x": 2020,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_paginationresponse",
+      "type": "file",
+      "file": "PaginationResponse_1.md",
+      "x": 2220,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_task",
+      "type": "file",
+      "file": "Task.md",
+      "x": 2420,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g2",
+      "type": "group",
+      "label": "Domain Entities and Configs",
+      "x": 2800,
+      "y": 0,
+      "width": 1320,
+      "height": 620,
+      "color": "3"
+    },
+    {
+      "id": "n_src_coffeeorders_infrastructure_configurations_coffeeconfiguration_coffeeorders_infrastructure_configurations_coffeeconfiguration_configure",
+      "type": "file",
+      "file": "dot-Configure().md",
+      "x": 2820,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_infrastructure_configurations_orderconfiguration_coffeeorders_infrastructure_configurations_orderconfiguration_configure",
+      "type": "file",
+      "file": "dot-Configure()_1.md",
+      "x": 3020,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_domain_coffee_coffeeorders_domain_coffee",
+      "type": "file",
+      "file": "Coffee.md",
+      "x": 3220,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_domain_coffee",
+      "type": "file",
+      "file": "Coffee.cs.md",
+      "x": 3420,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_infrastructure_configurations_coffeeconfiguration_coffeeorders_infrastructure_configurations_coffeeconfiguration",
+      "type": "file",
+      "file": "CoffeeConfiguration.md",
+      "x": 3620,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_infrastructure_configurations_coffeeconfiguration",
+      "type": "file",
+      "file": "CoffeeConfiguration.cs.md",
+      "x": 3820,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_domain_order_coffeeorders_domain_order_coffeeid",
+      "type": "file",
+      "file": "CoffeeId.md",
+      "x": 2820,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_csharp_namespace:fb710e46223b69ad",
+      "type": "file",
+      "file": "CoffeeOrders.Domain.md",
+      "x": 3020,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_csharp_namespace:b9aca7ca45fa12ea",
+      "type": "file",
+      "file": "CoffeeOrders.Domain.Common.md",
+      "x": 3220,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_csharp_namespace:bbb9383341d93463",
+      "type": "file",
+      "file": "CoffeeOrders.Infrastructure.Configurations.md",
+      "x": 3420,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_api_features_orders_createorder_createorderhandler_coffeeorders_api_features_orders_createorder_createorderhandler",
+      "type": "file",
+      "file": "CreateOrderHandler.md",
+      "x": 3620,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_api_features_orders_createorder_createorderhandler",
+      "type": "file",
+      "file": "CreateOrderHandler.cs.md",
+      "x": 3820,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_domain_coffee_coffeeorders_domain_coffee_description",
+      "type": "file",
+      "file": "Description.md",
+      "x": 2820,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_domain_common_entity",
+      "type": "file",
+      "file": "Entity.cs.md",
+      "x": 3020,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_entitytypebuilder",
+      "type": "file",
+      "file": "EntityTypeBuilder.md",
+      "x": 3220,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ientitytypeconfiguration",
+      "type": "file",
+      "file": "IEntityTypeConfiguration.md",
+      "x": 3420,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_list",
+      "type": "file",
+      "file": "List.md",
+      "x": 3620,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_domain_coffee_coffeeorders_domain_coffee_name",
+      "type": "file",
+      "file": "Name.md",
+      "x": 3820,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_domain_order_coffeeorders_domain_order",
+      "type": "file",
+      "file": "Order.md",
+      "x": 2820,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_domain_order",
+      "type": "file",
+      "file": "Order.cs.md",
+      "x": 3020,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_infrastructure_configurations_orderconfiguration_coffeeorders_infrastructure_configurations_orderconfiguration",
+      "type": "file",
+      "file": "OrderConfiguration.md",
+      "x": 3220,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_infrastructure_configurations_orderconfiguration",
+      "type": "file",
+      "file": "OrderConfiguration.cs.md",
+      "x": 3420,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_domain_order_coffeeorders_domain_order_ordername",
+      "type": "file",
+      "file": "OrderName.md",
+      "x": 3620,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_domain_coffee_coffeeorders_domain_coffee_orders",
+      "type": "file",
+      "file": "Orders.md",
+      "x": 3820,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_domain_coffee_coffeeorders_domain_coffee_photo",
+      "type": "file",
+      "file": "Photo.md",
+      "x": 2820,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_domain_order_coffeeorders_domain_order_size",
+      "type": "file",
+      "file": "Size.md",
+      "x": 3020,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_domain_coffee_coffeeorders_domain_coffee_skucode",
+      "type": "file",
+      "file": "SkuCode.md",
+      "x": 3220,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_domain_order_coffeeorders_domain_order_status",
+      "type": "file",
+      "file": "Status.md",
+      "x": 3420,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_domain_order_coffeeorders_domain_order_total",
+      "type": "file",
+      "file": "Total.md",
+      "x": 3620,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_microsoft_entityframeworkcore_metadata_builders",
+      "type": "file",
+      "file": "microsoft_entityframeworkcore_metadata_builders.md",
+      "x": 3820,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g3",
+      "type": "group",
+      "label": "Infrastructure Namespaces",
+      "x": 4200,
+      "y": 0,
+      "width": 1100,
+      "height": 620,
+      "color": "4"
+    },
+    {
+      "id": "n_src_coffeeorders_infrastructure_migrations_20261014080243_initialcreate_designer",
+      "type": "file",
+      "file": "20261014080243_InitialCreate.Designer.cs.md",
+      "x": 4220,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_infrastructure_migrations_20261014080243_initialcreate",
+      "type": "file",
+      "file": "20261014080243_InitialCreate.cs.md",
+      "x": 4420,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_infrastructure_migrations_20261014081200_columnsizes_designer",
+      "type": "file",
+      "file": "20261014081200_ColumnSizes.Designer.cs.md",
+      "x": 4620,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_infrastructure_migrations_20261014081200_columnsizes",
+      "type": "file",
+      "file": "20261014081200_ColumnSizes.cs.md",
+      "x": 4820,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_infrastructure_applicationdbcontext",
+      "type": "file",
+      "file": "ApplicationDbContext.cs.md",
+      "x": 5020,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_infrastructure_migrations_applicationdbcontextmodelsnapshot",
+      "type": "file",
+      "file": "ApplicationDbContextModelSnapshot.cs.md",
+      "x": 4220,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_infrastructure_interceptors_auditableentityinterceptor",
+      "type": "file",
+      "file": "AuditableEntityInterceptor.cs.md",
+      "x": 4420,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_api_features_orders_clearallorders_clearallordershandler",
+      "type": "file",
+      "file": "ClearAllOrdersHandler.cs.md",
+      "x": 4620,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_csharp_namespace:67d5d57c200d4a1e",
+      "type": "file",
+      "file": "CoffeeOrders.Infrastructure.md",
+      "x": 4820,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_csharp_namespace:6e699d48ba199579",
+      "type": "file",
+      "file": "CoffeeOrders.Infrastructure.Extensions.md",
+      "x": 5020,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_csharp_namespace:ced88af1f600d14b",
+      "type": "file",
+      "file": "CoffeeOrders.Infrastructure.Interceptors.md",
+      "x": 4220,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_csharp_namespace:44823810cdceb1bf",
+      "type": "file",
+      "file": "CoffeeOrders.Infrastructure.Migrations.md",
+      "x": 4420,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_infrastructure_dependencyinjection",
+      "type": "file",
+      "file": "CoffeeOrders.InfrastructureDependencyInjection.cs.md",
+      "x": 4620,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_infrastructure_extensions_databaseextensions",
+      "type": "file",
+      "file": "DatabaseExtensions.cs.md",
+      "x": 4820,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_microsoft_aspnetcore_builder",
+      "type": "file",
+      "file": "microsoft_aspnetcore_builder.md",
+      "x": 5020,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_microsoft_entityframeworkcore",
+      "type": "file",
+      "file": "microsoft_entityframeworkcore.md",
+      "x": 4220,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_microsoft_entityframeworkcore_changetracking",
+      "type": "file",
+      "file": "microsoft_entityframeworkcore_changetracking.md",
+      "x": 4420,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_microsoft_entityframeworkcore_diagnostics",
+      "type": "file",
+      "file": "microsoft_entityframeworkcore_diagnostics.md",
+      "x": 4620,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_microsoft_entityframeworkcore_infrastructure",
+      "type": "file",
+      "file": "microsoft_entityframeworkcore_infrastructure.md",
+      "x": 4820,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_microsoft_entityframeworkcore_metadata",
+      "type": "file",
+      "file": "microsoft_entityframeworkcore_metadata.md",
+      "x": 5020,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_microsoft_entityframeworkcore_migrations",
+      "type": "file",
+      "file": "microsoft_entityframeworkcore_migrations.md",
+      "x": 4220,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_microsoft_entityframeworkcore_storage_valueconversion",
+      "type": "file",
+      "file": "microsoft_entityframeworkcore_storage_valueconversion.md",
+      "x": 4420,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_microsoft_extensions_configuration",
+      "type": "file",
+      "file": "microsoft_extensions_configuration.md",
+      "x": 4620,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_microsoft_extensions_dependencyinjection",
+      "type": "file",
+      "file": "microsoft_extensions_dependencyinjection.md",
+      "x": 4820,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_system",
+      "type": "file",
+      "file": "system.md",
+      "x": 5020,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g4",
+      "type": "group",
+      "label": "Get Coffees Feature",
+      "x": 5380,
+      "y": 0,
+      "width": 1100,
+      "height": 620,
+      "color": "5"
+    },
+    {
+      "id": "n_src_coffeeorders_api_features_coffees_getcoffees_getcoffeesendpoint_coffeeorders_api_features_coffees_getcoffees_getcoffeesendpoint_addroutes",
+      "type": "file",
+      "file": "dot-AddRoutes()_3.md",
+      "x": 5400,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_api_features_coffees_getcoffees_getcoffeehandler_coffeeorders_api_features_coffees_getcoffees_getcoffeehandler_handle",
+      "type": "file",
+      "file": "dot-Handle()_3.md",
+      "x": 5600,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_coffeedto",
+      "type": "file",
+      "file": "CoffeeDto_1.md",
+      "x": 5800,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_csharp_namespace:842a6e4530eba61a",
+      "type": "file",
+      "file": "CoffeeOrders.Api.Features.Coffees.GetCoffees.md",
+      "x": 6000,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_csharp_namespace:545466a923bd0062",
+      "type": "file",
+      "file": "CoffeeOrders.Api.Shared.Pagination.md",
+      "x": 6200,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_api_shared_pagination_paginationresponse_coffeeorders_api_shared_pagination_paginationresponse_1_count",
+      "type": "file",
+      "file": "Count.md",
+      "x": 5400,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_api_shared_pagination_paginationresponse_coffeeorders_api_shared_pagination_paginationresponse_1_data",
+      "type": "file",
+      "file": "Data.md",
+      "x": 5600,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_api_features_coffees_getcoffees_getcoffeehandler_coffeeorders_api_features_coffees_getcoffees_getcoffeehandler",
+      "type": "file",
+      "file": "GetCoffeeHandler.md",
+      "x": 5800,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_api_features_coffees_getcoffees_getcoffeehandler",
+      "type": "file",
+      "file": "GetCoffeeHandler.cs.md",
+      "x": 6000,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_api_features_coffees_getcoffees_getcoffeesendpoint_coffeeorders_api_features_coffees_getcoffees_getcoffeesendpoint",
+      "type": "file",
+      "file": "GetCoffeesEndpoint.md",
+      "x": 6200,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_api_features_coffees_getcoffees_getcoffeesendpoint",
+      "type": "file",
+      "file": "GetCoffeesEndpoint.cs.md",
+      "x": 5400,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_api_features_coffees_getcoffees_getcoffeesquery_coffeeorders_api_features_coffees_getcoffees_getcoffeesquery",
+      "type": "file",
+      "file": "GetCoffeesQuery.md",
+      "x": 5600,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_api_features_coffees_getcoffees_getcoffeesquery",
+      "type": "file",
+      "file": "GetCoffeesQuery.cs.md",
+      "x": 5800,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_api_features_coffees_getcoffees_getcoffeesendpoint_coffeeorders_api_features_coffees_getcoffees_getcoffeesresponse",
+      "type": "file",
+      "file": "GetCoffeesResponse.md",
+      "x": 6000,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_iendpointroutebuilder",
+      "type": "file",
+      "file": "IEndpointRouteBuilder.md",
+      "x": 6200,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ienumerable",
+      "type": "file",
+      "file": "IEnumerable.md",
+      "x": 5400,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_api_shared_pagination_paginationresponse_coffeeorders_api_shared_pagination_paginationresponse_1_pagenumber",
+      "type": "file",
+      "file": "PageNumber.md",
+      "x": 5600,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_api_shared_pagination_paginationresponse_coffeeorders_api_shared_pagination_paginationresponse_1_pagesize",
+      "type": "file",
+      "file": "PageSize.md",
+      "x": 5800,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_api_shared_pagination_paginationrequest_coffeeorders_api_shared_pagination_paginationrequest",
+      "type": "file",
+      "file": "PaginationRequest.md",
+      "x": 6000,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_api_shared_pagination_paginationrequest",
+      "type": "file",
+      "file": "PaginationRequest.cs.md",
+      "x": 6200,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_api_shared_pagination_paginationresponse_coffeeorders_api_shared_pagination_paginationresponse_1",
+      "type": "file",
+      "file": "PaginationResponse.md",
+      "x": 5400,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_api_shared_pagination_paginationresponse",
+      "type": "file",
+      "file": "PaginationResponse.cs.md",
+      "x": 5600,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_mapster",
+      "type": "file",
+      "file": "mapster.md",
+      "x": 5800,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g5",
+      "type": "group",
+      "label": "Solution and NuGet Packages",
+      "x": 0,
+      "y": 800,
+      "width": 1100,
+      "height": 620,
+      "color": "6"
+    },
+    {
+      "id": "n_nuget_carter",
+      "type": "file",
+      "file": "Carter (10.0.0).md",
+      "x": 20,
+      "y": 880,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_api_coffeeorders_api",
+      "type": "file",
+      "file": "CoffeeOrders.Api.csproj.md",
+      "x": 220,
+      "y": 880,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_domain_coffeeorders_domain",
+      "type": "file",
+      "file": "CoffeeOrders.Domain.csproj.md",
+      "x": 420,
+      "y": 880,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_infrastructure_coffeeorders_infrastructure",
+      "type": "file",
+      "file": "CoffeeOrders.Infrastructure.csproj.md",
+      "x": 620,
+      "y": 880,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_coffeeorders",
+      "type": "file",
+      "file": "CoffeeOrders.slnx.md",
+      "x": 820,
+      "y": 880,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_nuget_fluentvalidation_dependencyinjectionextensions",
+      "type": "file",
+      "file": "FluentValidation.DependencyInjectionExtensions (12.2.0).md",
+      "x": 20,
+      "y": 960,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_nuget_mapster",
+      "type": "file",
+      "file": "Mapster (10.0.13).md",
+      "x": 220,
+      "y": 960,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_nuget_microsoft_aspnetcore_openapi",
+      "type": "file",
+      "file": "Microsoft.AspNetCore.OpenApi (10.0.13).md",
+      "x": 420,
+      "y": 960,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_nuget_microsoft_entityframeworkcore",
+      "type": "file",
+      "file": "Microsoft.EntityFrameworkCore (10.0.12).md",
+      "x": 620,
+      "y": 960,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_nuget_microsoft_entityframeworkcore_design",
+      "type": "file",
+      "file": "Microsoft.EntityFrameworkCore.Design (10.0.13).md",
+      "x": 820,
+      "y": 960,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_nuget_microsoft_entityframeworkcore_sqlserver",
+      "type": "file",
+      "file": "Microsoft.EntityFrameworkCore.SqlServer (10.0.12).md",
+      "x": 20,
+      "y": 1040,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_domain_coffeeorders_domain_csproj_sdk_microsoft_net_sdk",
+      "type": "file",
+      "file": "Microsoft.NET.Sdk.md",
+      "x": 220,
+      "y": 1040,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_infrastructure_coffeeorders_infrastructure_csproj_sdk_microsoft_net_sdk",
+      "type": "file",
+      "file": "Microsoft.NET.Sdk_1.md",
+      "x": 420,
+      "y": 1040,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_sdk_microsoft_net_sdk_web",
+      "type": "file",
+      "file": "Microsoft.NET.Sdk.Web.md",
+      "x": 620,
+      "y": 1040,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_nuget_scalar_aspnetcore",
+      "type": "file",
+      "file": "Scalar.AspNetCore (2.18.0).md",
+      "x": 820,
+      "y": 1040,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_nuget_wolverinefx_entityframeworkcore",
+      "type": "file",
+      "file": "WolverineFx.EntityFrameworkCore (6.49.0).md",
+      "x": 20,
+      "y": 1120,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_nuget_wolverinefx_runtimecompilation",
+      "type": "file",
+      "file": "WolverineFx.RuntimeCompilation (6.51.0).md",
+      "x": 220,
+      "y": 1120,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_nuget_wolverinefx_sqlserver",
+      "type": "file",
+      "file": "WolverineFx.SqlServer (6.49.0).md",
+      "x": 420,
+      "y": 1120,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_api_coffeeorders_api_csproj_framework_net10_0",
+      "type": "file",
+      "file": "net10.0.md",
+      "x": 620,
+      "y": 1120,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_domain_coffeeorders_domain_csproj_framework_net10_0",
+      "type": "file",
+      "file": "net10.0_1.md",
+      "x": 820,
+      "y": 1120,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_infrastructure_coffeeorders_infrastructure_csproj_framework_net10_0",
+      "type": "file",
+      "file": "net10.0_2.md",
+      "x": 20,
+      "y": 1200,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g6",
+      "type": "group",
+      "label": "DbContext and Audit Interceptor",
+      "x": 1400,
+      "y": 800,
+      "width": 1100,
+      "height": 520,
+      "color": "1"
+    },
+    {
+      "id": "n_src_coffeeorders_infrastructure_dependencyinjection_coffeeorders_infrastructure_dependencyinjection_addinfrastructureservices",
+      "type": "file",
+      "file": "dot-AddInfrastructureServices().md",
+      "x": 1420,
+      "y": 880,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_infrastructure_interceptors_auditableentityinterceptor_coffeeorders_infrastructure_interceptors_auditableentityinterceptor_savingchanges",
+      "type": "file",
+      "file": "dot-SavingChanges().md",
+      "x": 1620,
+      "y": 880,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_infrastructure_interceptors_auditableentityinterceptor_coffeeorders_infrastructure_interceptors_auditableentityinterceptor_savingchangesasync",
+      "type": "file",
+      "file": "dot-SavingChangesAsync().md",
+      "x": 1820,
+      "y": 880,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_infrastructure_interceptors_auditableentityinterceptor_coffeeorders_infrastructure_interceptors_auditableentityinterceptor_updateentities",
+      "type": "file",
+      "file": "dot-UpdateEntities().md",
+      "x": 2020,
+      "y": 880,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_infrastructure_applicationdbcontext_coffeeorders_infrastructure_applicationdbcontext",
+      "type": "file",
+      "file": "ApplicationDbContext.md",
+      "x": 2220,
+      "y": 880,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_infrastructure_interceptors_auditableentityinterceptor_coffeeorders_infrastructure_interceptors_auditableentityinterceptor",
+      "type": "file",
+      "file": "AuditableEntityInterceptor.md",
+      "x": 1420,
+      "y": 960,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_infrastructure_applicationdbcontext_coffeeorders_infrastructure_applicationdbcontext_coffees",
+      "type": "file",
+      "file": "Coffees.md",
+      "x": 1620,
+      "y": 960,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_dbcontext",
+      "type": "file",
+      "file": "DbContext.md",
+      "x": 1820,
+      "y": 960,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_dbcontexteventdata",
+      "type": "file",
+      "file": "DbContextEventData.md",
+      "x": 2020,
+      "y": 960,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_dbcontextoptions",
+      "type": "file",
+      "file": "DbContextOptions.md",
+      "x": 2220,
+      "y": 960,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_dbset",
+      "type": "file",
+      "file": "DbSet.md",
+      "x": 1420,
+      "y": 1040,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_infrastructure_dependencyinjection_coffeeorders_infrastructure_dependencyinjection",
+      "type": "file",
+      "file": "DependencyInjection.md",
+      "x": 1620,
+      "y": 1040,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_iconfiguration",
+      "type": "file",
+      "file": "IConfiguration.md",
+      "x": 1820,
+      "y": 1040,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_isavechangesinterceptor",
+      "type": "file",
+      "file": "ISaveChangesInterceptor.md",
+      "x": 2020,
+      "y": 1040,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_interceptionresult",
+      "type": "file",
+      "file": "InterceptionResult.md",
+      "x": 2220,
+      "y": 1040,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_infrastructure_applicationdbcontext_coffeeorders_infrastructure_applicationdbcontext_orders",
+      "type": "file",
+      "file": "Orders_1.md",
+      "x": 1420,
+      "y": 1120,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_savechangesinterceptor",
+      "type": "file",
+      "file": "SaveChangesInterceptor.md",
+      "x": 1620,
+      "y": 1120,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g7",
+      "type": "group",
+      "label": "Create Order and Middleware",
+      "x": 2800,
+      "y": 800,
+      "width": 880,
+      "height": 520,
+      "color": "2"
+    },
+    {
+      "id": "n_src_coffeeorders_api_shared_middleware_validationmiddleware_coffeeorders_api_shared_middleware_validationmiddleware_1_invokeasync",
+      "type": "file",
+      "file": "dot-InvokeAsync().md",
+      "x": 2820,
+      "y": 880,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_csharp_namespace:3fb706193c656ecb",
+      "type": "file",
+      "file": "CoffeeOrders.Api.Features.Orders.CreateOrder.md",
+      "x": 3020,
+      "y": 880,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_csharp_namespace:c8d3bf84f15fcbff",
+      "type": "file",
+      "file": "CoffeeOrders.Api.Shared.Middleware.md",
+      "x": 3220,
+      "y": 880,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_api_features_orders_createorder_createordercommand",
+      "type": "file",
+      "file": "CreateOrderCommand.cs.md",
+      "x": 3420,
+      "y": 880,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_api_features_orders_createorder_createorderendpoint",
+      "type": "file",
+      "file": "CreateOrderEndpoint.cs.md",
+      "x": 2820,
+      "y": 960,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_api_features_orders_createorder_createordervalidator",
+      "type": "file",
+      "file": "CreateOrderValidator.cs.md",
+      "x": 3020,
+      "y": 960,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_endpointfilterdelegate",
+      "type": "file",
+      "file": "EndpointFilterDelegate.md",
+      "x": 3220,
+      "y": 960,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_endpointfilterinvocationcontext",
+      "type": "file",
+      "file": "EndpointFilterInvocationContext.md",
+      "x": 3420,
+      "y": 960,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_api_shared_middleware_exceptionhandlingmiddleware_coffeeorders_api_shared_middleware_exceptionhandlingmiddleware",
+      "type": "file",
+      "file": "ExceptionHandlingMiddleware.md",
+      "x": 2820,
+      "y": 1040,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_api_shared_middleware_exceptionhandlingmiddleware",
+      "type": "file",
+      "file": "ExceptionHandlingMiddleware.cs.md",
+      "x": 3020,
+      "y": 1040,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_iendpointfilter",
+      "type": "file",
+      "file": "IEndpointFilter.md",
+      "x": 3220,
+      "y": 1040,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ivalidator",
+      "type": "file",
+      "file": "IValidator.md",
+      "x": 3420,
+      "y": 1040,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_api_shared_middleware_validationmiddleware_coffeeorders_api_shared_middleware_validationmiddleware_1",
+      "type": "file",
+      "file": "ValidationMiddleware.md",
+      "x": 2820,
+      "y": 1120,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_api_shared_middleware_validationmiddleware",
+      "type": "file",
+      "file": "ValidationMiddleware.cs.md",
+      "x": 3020,
+      "y": 1120,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_valuetask",
+      "type": "file",
+      "file": "ValueTask.md",
+      "x": 3220,
+      "y": 1120,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_fluentvalidation",
+      "type": "file",
+      "file": "fluentvalidation.md",
+      "x": 3420,
+      "y": 1120,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g8",
+      "type": "group",
+      "label": "Launch Settings",
+      "x": 4200,
+      "y": 800,
+      "width": 880,
+      "height": 520,
+      "color": "3"
+    },
+    {
+      "id": "n_src_coffeeorders_api_properties_launchsettings_schema",
+      "type": "file",
+      "file": "$schema.md",
+      "x": 4220,
+      "y": 880,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_api_properties_launchsettings_environmentvariables_aspnetcore_environment",
+      "type": "file",
+      "file": "ASPNETCORE_ENVIRONMENT.md",
+      "x": 4420,
+      "y": 880,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_api_properties_launchsettings_http_applicationurl",
+      "type": "file",
+      "file": "applicationUrl.md",
+      "x": 4620,
+      "y": 880,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_api_properties_launchsettings_https_applicationurl",
+      "type": "file",
+      "file": "applicationUrl_1.md",
+      "x": 4820,
+      "y": 880,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_api_properties_launchsettings_http_commandname",
+      "type": "file",
+      "file": "commandName.md",
+      "x": 4220,
+      "y": 960,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_api_properties_launchsettings_https_commandname",
+      "type": "file",
+      "file": "commandName_1.md",
+      "x": 4420,
+      "y": 960,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_api_properties_launchsettings_http_dotnetrunmessages",
+      "type": "file",
+      "file": "dotnetRunMessages.md",
+      "x": 4620,
+      "y": 960,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_api_properties_launchsettings_https_dotnetrunmessages",
+      "type": "file",
+      "file": "dotnetRunMessages_1.md",
+      "x": 4820,
+      "y": 960,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_api_properties_launchsettings_http_environmentvariables",
+      "type": "file",
+      "file": "environmentVariables.md",
+      "x": 4220,
+      "y": 1040,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_api_properties_launchsettings_https_environmentvariables",
+      "type": "file",
+      "file": "environmentVariables_1.md",
+      "x": 4420,
+      "y": 1040,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_api_properties_launchsettings_profiles_http",
+      "type": "file",
+      "file": "http.md",
+      "x": 4620,
+      "y": 1040,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_api_properties_launchsettings_profiles_https",
+      "type": "file",
+      "file": "https.md",
+      "x": 4820,
+      "y": 1040,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_api_properties_launchsettings_http_launchbrowser",
+      "type": "file",
+      "file": "launchBrowser.md",
+      "x": 4220,
+      "y": 1120,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_api_properties_launchsettings_https_launchbrowser",
+      "type": "file",
+      "file": "launchBrowser_1.md",
+      "x": 4420,
+      "y": 1120,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_api_properties_launchsettings",
+      "type": "file",
+      "file": "launchSettings.json.md",
+      "x": 4620,
+      "y": 1120,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_api_properties_launchsettings_profiles",
+      "type": "file",
+      "file": "profiles.md",
+      "x": 4820,
+      "y": 1120,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g9",
+      "type": "group",
+      "label": "API Composition Root",
+      "x": 5380,
+      "y": 800,
+      "width": 880,
+      "height": 520,
+      "color": "4"
+    },
+    {
+      "id": "n_src_coffeeorders_api_dependencyinjection_coffeeorders_api_dependencyinjection_addapiservices",
+      "type": "file",
+      "file": "dot-AddApiServices().md",
+      "x": 5400,
+      "y": 880,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_api_dependencyinjection_coffeeorders_api_dependencyinjection_useapiservices",
+      "type": "file",
+      "file": "dot-UseApiServices().md",
+      "x": 5600,
+      "y": 880,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_csharp_namespace:c288c728fc5be47a",
+      "type": "file",
+      "file": "CoffeeOrders.Api.md",
+      "x": 5800,
+      "y": 880,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_api_dependencyinjection",
+      "type": "file",
+      "file": "CoffeeOrders.ApiDependencyInjection.cs.md",
+      "x": 6000,
+      "y": 880,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_configurehostbuilder",
+      "type": "file",
+      "file": "ConfigureHostBuilder.md",
+      "x": 5400,
+      "y": 960,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_api_dependencyinjection_coffeeorders_api_dependencyinjection",
+      "type": "file",
+      "file": "DependencyInjection_1.md",
+      "x": 5600,
+      "y": 960,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_api_globalusing",
+      "type": "file",
+      "file": "GlobalUsing.cs.md",
+      "x": 5800,
+      "y": 960,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_iservicecollection",
+      "type": "file",
+      "file": "IServiceCollection.md",
+      "x": 6000,
+      "y": 960,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_webapplication",
+      "type": "file",
+      "file": "WebApplication.md",
+      "x": 5400,
+      "y": 1040,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_carter",
+      "type": "file",
+      "file": "carter.md",
+      "x": 5600,
+      "y": 1040,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_microsoft_aspnetcore_mvc",
+      "type": "file",
+      "file": "microsoft_aspnetcore_mvc.md",
+      "x": 5800,
+      "y": 1040,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_scalar_aspnetcore",
+      "type": "file",
+      "file": "scalar_aspnetcore.md",
+      "x": 6000,
+      "y": 1040,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_system_reflection",
+      "type": "file",
+      "file": "system_reflection.md",
+      "x": 5400,
+      "y": 1120,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wolverine",
+      "type": "file",
+      "file": "wolverine.md",
+      "x": 5600,
+      "y": 1120,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wolverine_entityframeworkcore",
+      "type": "file",
+      "file": "wolverine_entityframeworkcore.md",
+      "x": 5800,
+      "y": 1120,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g10",
+      "type": "group",
+      "label": "Domain Enums",
+      "x": 0,
+      "y": 1500,
+      "width": 880,
+      "height": 520,
+      "color": "5"
+    },
+    {
+      "id": "n_src_coffeeorders_domain_constants_orderstatus_coffeeorders_domain_constants_orderstatus_cancelled",
+      "type": "file",
+      "file": "Cancelled.md",
+      "x": 20,
+      "y": 1580,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_csharp_namespace:28ce155a38714900",
+      "type": "file",
+      "file": "CoffeeOrders.Domain.Constants.md",
+      "x": 220,
+      "y": 1580,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_domain_constants_coffeesize_coffeeorders_domain_constants_coffeesize",
+      "type": "file",
+      "file": "CoffeeSize.md",
+      "x": 420,
+      "y": 1580,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_domain_constants_coffeesize",
+      "type": "file",
+      "file": "CoffeeSize.cs.md",
+      "x": 620,
+      "y": 1580,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_domain_constants_orderstatus_coffeeorders_domain_constants_orderstatus_completed",
+      "type": "file",
+      "file": "Completed.md",
+      "x": 20,
+      "y": 1660,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_domain_constants_coffeesize_coffeeorders_domain_constants_coffeesize_large",
+      "type": "file",
+      "file": "Large.md",
+      "x": 220,
+      "y": 1660,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_domain_constants_coffeesize_coffeeorders_domain_constants_coffeesize_medium",
+      "type": "file",
+      "file": "Medium.md",
+      "x": 420,
+      "y": 1660,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_domain_constants_orderstatus_coffeeorders_domain_constants_orderstatus_onhold",
+      "type": "file",
+      "file": "OnHold.md",
+      "x": 620,
+      "y": 1660,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_domain_constants_orderstatus_coffeeorders_domain_constants_orderstatus",
+      "type": "file",
+      "file": "OrderStatus.md",
+      "x": 20,
+      "y": 1740,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_domain_constants_orderstatus",
+      "type": "file",
+      "file": "OrderStatus.cs.md",
+      "x": 220,
+      "y": 1740,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_domain_constants_orderstatus_coffeeorders_domain_constants_orderstatus_preparing",
+      "type": "file",
+      "file": "Preparing.md",
+      "x": 420,
+      "y": 1740,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_domain_constants_orderstatus_coffeeorders_domain_constants_orderstatus_refunded",
+      "type": "file",
+      "file": "Refunded.md",
+      "x": 620,
+      "y": 1740,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_domain_constants_orderstatus_coffeeorders_domain_constants_orderstatus_serving",
+      "type": "file",
+      "file": "Serving.md",
+      "x": 20,
+      "y": 1820,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_domain_constants_coffeesize_coffeeorders_domain_constants_coffeesize_small",
+      "type": "file",
+      "file": "Small.md",
+      "x": 220,
+      "y": 1820,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g11",
+      "type": "group",
+      "label": "CI/CD and Deployment",
+      "x": 1400,
+      "y": 1500,
+      "width": 660,
+      "height": 420,
+      "color": "6"
+    },
+    {
+      "id": "n__github_workflows_master_coffeeorders_net_app_artifact",
+      "type": "file",
+      "file": "dot-net-app build artifact.md",
+      "x": 1420,
+      "y": 1580,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n__github_workflows_master_coffeeorders_azure_web_app_coffeeorders",
+      "type": "file",
+      "file": "Azure Web App 'coffeeorders' (Production slot).md",
+      "x": 1620,
+      "y": 1580,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n__github_workflows_master_coffeeorders",
+      "type": "file",
+      "file": "Build and deploy ASP.Net Core app to Azure Web App - coffeeorders (workflow).md",
+      "x": 1820,
+      "y": 1580,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_compose",
+      "type": "file",
+      "file": "Docker Compose configuration.md",
+      "x": 1420,
+      "y": 1660,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n__github_workflows_master_coffeeorders_build",
+      "type": "file",
+      "file": "build job (dotnet 10.x build & publish).md",
+      "x": 1620,
+      "y": 1660,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_compose_coffeeorders_api",
+      "type": "file",
+      "file": "coffeeorders.api compose service.md",
+      "x": 1820,
+      "y": 1660,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n__github_workflows_master_coffeeorders_deploy",
+      "type": "file",
+      "file": "deploy job (azurewebapps-deploy@v3).md",
+      "x": 1420,
+      "y": 1740,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_api_dockerfile",
+      "type": "file",
+      "file": "srcCoffeeOrders.ApiDockerfile.md",
+      "x": 1620,
+      "y": 1740,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g12",
+      "type": "group",
+      "label": "Clear All Orders Feature",
+      "x": 2800,
+      "y": 1500,
+      "width": 660,
+      "height": 420,
+      "color": "1"
+    },
+    {
+      "id": "n_src_coffeeorders_api_features_orders_clearallorders_clearallordersendpoint_coffeeorders_api_features_orders_clearallorders_clearallordersendpoint_addroutes",
+      "type": "file",
+      "file": "dot-AddRoutes()_2.md",
+      "x": 2820,
+      "y": 1580,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_api_features_orders_clearallorders_clearallordercommand_coffeeorders_api_features_orders_clearallorders_clearallordercommand",
+      "type": "file",
+      "file": "ClearAllOrderCommand.md",
+      "x": 3020,
+      "y": 1580,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_api_features_orders_clearallorders_clearallordercommand",
+      "type": "file",
+      "file": "ClearAllOrderCommand.cs.md",
+      "x": 3220,
+      "y": 1580,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_api_features_orders_clearallorders_clearallordersendpoint_coffeeorders_api_features_orders_clearallorders_clearallordersendpoint",
+      "type": "file",
+      "file": "ClearAllOrdersEndpoint.md",
+      "x": 2820,
+      "y": 1660,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_api_features_orders_clearallorders_clearallordersendpoint",
+      "type": "file",
+      "file": "ClearAllOrdersEndpoint.cs.md",
+      "x": 3020,
+      "y": 1660,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_csharp_namespace:ffe56243a5d74d7d",
+      "type": "file",
+      "file": "CoffeeOrders.Api.Features.Orders.ClearAllOrders.md",
+      "x": 3220,
+      "y": 1660,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_api_features_orders_createorder_createorderendpoint_coffeeorders_api_features_orders_createorder_createorderendpoint",
+      "type": "file",
+      "file": "CreateOrderEndpoint.md",
+      "x": 2820,
+      "y": 1740,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_icartermodule",
+      "type": "file",
+      "file": "ICarterModule.md",
+      "x": 3020,
+      "y": 1740,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g13",
+      "type": "group",
+      "label": "Exception Types",
+      "x": 4200,
+      "y": 1500,
+      "width": 660,
+      "height": 420,
+      "color": "2"
+    },
+    {
+      "id": "n_src_coffeeorders_api_shared_exceptions_badrequestexception_coffeeorders_api_shared_exceptions_badrequestexception",
+      "type": "file",
+      "file": "BadRequestException.md",
+      "x": 4220,
+      "y": 1580,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_api_shared_exceptions_badrequestexception",
+      "type": "file",
+      "file": "BadRequestException.cs.md",
+      "x": 4420,
+      "y": 1580,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_csharp_namespace:41a15d5941624500",
+      "type": "file",
+      "file": "CoffeeOrders.Api.Shared.Exceptions.md",
+      "x": 4620,
+      "y": 1580,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_api_shared_exceptions_internalservererrorexception_coffeeorders_api_shared_exceptions_internalservererrorexception",
+      "type": "file",
+      "file": "InternalServerErrorException.md",
+      "x": 4220,
+      "y": 1660,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_api_shared_exceptions_internalservererrorexception",
+      "type": "file",
+      "file": "InternalServerErrorException.cs.md",
+      "x": 4420,
+      "y": 1660,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_api_shared_exceptions_notfoundexception_coffeeorders_api_shared_exceptions_notfoundexception",
+      "type": "file",
+      "file": "NotFoundException.md",
+      "x": 4620,
+      "y": 1660,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_api_shared_exceptions_notfoundexception",
+      "type": "file",
+      "file": "NotFoundException.cs.md",
+      "x": 4220,
+      "y": 1740,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g14",
+      "type": "group",
+      "label": "Update Order Feature",
+      "x": 5380,
+      "y": 1500,
+      "width": 660,
+      "height": 420,
+      "color": "3"
+    },
+    {
+      "id": "n_csharp_namespace:5d957a3004d2efb3",
+      "type": "file",
+      "file": "CoffeeOrders.Api.Features.Orders.UpdateOrder.md",
+      "x": 5400,
+      "y": 1580,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_api_features_orders_updateorder_updateordercommand_coffeeorders_api_features_orders_updateorder_updateordercommand",
+      "type": "file",
+      "file": "UpdateOrderCommand.md",
+      "x": 5600,
+      "y": 1580,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_api_features_orders_updateorder_updateordercommand",
+      "type": "file",
+      "file": "UpdateOrderCommand.cs.md",
+      "x": 5800,
+      "y": 1580,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_api_features_orders_updateorder_updateorderendpoint_coffeeorders_api_features_orders_updateorder_updateorderendpoint",
+      "type": "file",
+      "file": "UpdateOrderEndpoint.md",
+      "x": 5400,
+      "y": 1660,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_api_features_orders_updateorder_updateorderendpoint",
+      "type": "file",
+      "file": "UpdateOrderEndpoint.cs.md",
+      "x": 5600,
+      "y": 1660,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_api_features_orders_updateorder_updateorderhandler_coffeeorders_api_features_orders_updateorder_updateorderhandler",
+      "type": "file",
+      "file": "UpdateOrderHandler.md",
+      "x": 5800,
+      "y": 1660,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_api_features_orders_updateorder_updateorderhandler",
+      "type": "file",
+      "file": "UpdateOrderHandler.cs.md",
+      "x": 5400,
+      "y": 1740,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g15",
+      "type": "group",
+      "label": "Get Order Details Feature",
+      "x": 0,
+      "y": 2100,
+      "width": 660,
+      "height": 420,
+      "color": "4"
+    },
+    {
+      "id": "n_csharp_namespace:c8c7262f2d5c185f",
+      "type": "file",
+      "file": "CoffeeOrders.Api.Features.Orders.GetOrderDetails.md",
+      "x": 20,
+      "y": 2180,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_api_features_orders_getorderdetails_getorderdetailsendpoint_coffeeorders_api_features_orders_getorderdetails_getorderdetailsendpoint",
+      "type": "file",
+      "file": "GetOrderDetailsEndpoint.md",
+      "x": 220,
+      "y": 2180,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_api_features_orders_getorderdetails_getorderdetailsendpoint",
+      "type": "file",
+      "file": "GetOrderDetailsEndpoint.cs.md",
+      "x": 420,
+      "y": 2180,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_api_features_orders_getorderdetails_getorderdetailshandler_coffeeorders_api_features_orders_getorderdetails_getorderdetailshandler",
+      "type": "file",
+      "file": "GetOrderDetailsHandler.md",
+      "x": 20,
+      "y": 2260,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_api_features_orders_getorderdetails_getorderdetailshandler",
+      "type": "file",
+      "file": "GetOrderDetailsHandler.cs.md",
+      "x": 220,
+      "y": 2260,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_api_features_orders_getorderdetails_getorderdetailsquery_coffeeorders_api_features_orders_getorderdetails_getorderdetailsquery",
+      "type": "file",
+      "file": "GetOrderDetailsQuery.md",
+      "x": 420,
+      "y": 2260,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_api_features_orders_getorderdetails_getorderdetailsquery",
+      "type": "file",
+      "file": "GetOrderDetailsQuery.cs.md",
+      "x": 20,
+      "y": 2340,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g16",
+      "type": "group",
+      "label": "Delete Order Feature",
+      "x": 1400,
+      "y": 2100,
+      "width": 660,
+      "height": 420,
+      "color": "5"
+    },
+    {
+      "id": "n_csharp_namespace:def381210d9f269f",
+      "type": "file",
+      "file": "CoffeeOrders.Api.Features.Orders.DeleteOrder.md",
+      "x": 1420,
+      "y": 2180,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_api_features_orders_deleteorder_deleteordercommand_coffeeorders_api_features_orders_deleteorder_deleteordercommand",
+      "type": "file",
+      "file": "DeleteOrderCommand.md",
+      "x": 1620,
+      "y": 2180,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_api_features_orders_deleteorder_deleteordercommand",
+      "type": "file",
+      "file": "DeleteOrderCommand.cs.md",
+      "x": 1820,
+      "y": 2180,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_api_features_orders_deleteorder_deleteorderendpoint_coffeeorders_api_features_orders_deleteorder_deleteorderendpoint",
+      "type": "file",
+      "file": "DeleteOrderEndpoint.md",
+      "x": 1420,
+      "y": 2260,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_api_features_orders_deleteorder_deleteorderendpoint",
+      "type": "file",
+      "file": "DeleteOrderEndpoint.cs.md",
+      "x": 1620,
+      "y": 2260,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_api_features_orders_deleteorder_deleteorderhandler_coffeeorders_api_features_orders_deleteorder_deleteorderhandler",
+      "type": "file",
+      "file": "DeleteOrderHandler.md",
+      "x": 1820,
+      "y": 2260,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_src_coffeeorders_api_features_orders_deleteorder_deleteorderhandler",
+      "type": "file",
+      "file": "DeleteOrderHandler.cs.md",
+      "x": 1420,
+      "y": 2340,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g17",
+      "type": "group",
+      "label": "Program Entry Point",
+      "x": 2800,
+      "y": 2100,
+      "width": 600,
+      "height": 400,
+      "color": "6"
+    },
+    {
+      "id": "n_src_coffeeorders_api_program",
+      "type": "file",
+      "file": "Program.cs.md",
+      "x": 2820,
+      "y": 2180,
+      "width": 180,
+      "height": 60
+    }
+  ],
+  "edges": [
+    {
+      "id": "e_src_coffeeorders_api_dtos_coffeedto_coffeeorders_api_dtos_coffeedto_datetime",
+      "fromNode": "n_src_coffeeorders_api_dtos_coffeedto_coffeeorders_api_dtos_coffeedto",
+      "toNode": "n_datetime",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_api_dtos_coffeedto_coffeeorders_api_dtos_coffeedto_guid",
+      "fromNode": "n_src_coffeeorders_api_dtos_coffeedto_coffeeorders_api_dtos_coffeedto",
+      "toNode": "n_guid",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_api_dtos_coffeedto_src_coffeeorders_api_dtos_coffeedto_coffeeorders_api_dtos_coffeedto",
+      "fromNode": "n_src_coffeeorders_api_dtos_coffeedto",
+      "toNode": "n_src_coffeeorders_api_dtos_coffeedto_coffeeorders_api_dtos_coffeedto",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_api_dtos_orderdto_coffeeorders_api_dtos_orderdto_datetime",
+      "fromNode": "n_src_coffeeorders_api_dtos_orderdto_coffeeorders_api_dtos_orderdto",
+      "toNode": "n_datetime",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_api_dtos_orderdto_coffeeorders_api_dtos_orderdto_guid",
+      "fromNode": "n_src_coffeeorders_api_dtos_orderdto_coffeeorders_api_dtos_orderdto",
+      "toNode": "n_guid",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_api_dtos_orderdto_src_coffeeorders_api_dtos_orderdto_coffeeorders_api_dtos_orderdto",
+      "fromNode": "n_src_coffeeorders_api_dtos_orderdto",
+      "toNode": "n_src_coffeeorders_api_dtos_orderdto_coffeeorders_api_dtos_orderdto",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_api_features_orders_createorder_createordercommand_coffeeorders_api_features_orders_createorder_createordercommand_guid",
+      "fromNode": "n_src_coffeeorders_api_features_orders_createorder_createordercommand_coffeeorders_api_features_orders_createorder_createordercommand",
+      "toNode": "n_guid",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_api_features_orders_createorder_createorderendpoint_coffeeorders_api_features_orders_createorder_createorderendpoint_addroutes_src_coffeeorders_api_features_orders_createorder_createordercommand_coffeeorders_api_features_orders_createorder_createordercommand",
+      "fromNode": "n_src_coffeeorders_api_features_orders_createorder_createorderendpoint_coffeeorders_api_features_orders_createorder_createorderendpoint_addroutes",
+      "toNode": "n_src_coffeeorders_api_features_orders_createorder_createordercommand_coffeeorders_api_features_orders_createorder_createordercommand",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_api_features_orders_createorder_createorderhandler_coffeeorders_api_features_orders_createorder_createorderhandler_handle_src_coffeeorders_api_features_orders_createorder_createordercommand_coffeeorders_api_features_orders_createorder_createordercommand",
+      "fromNode": "n_src_coffeeorders_api_features_orders_createorder_createorderhandler_coffeeorders_api_features_orders_createorder_createorderhandler_handle",
+      "toNode": "n_src_coffeeorders_api_features_orders_createorder_createordercommand_coffeeorders_api_features_orders_createorder_createordercommand",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_api_features_orders_createorder_createordercommand_src_coffeeorders_api_features_orders_createorder_createordercommand_coffeeorders_api_features_orders_createorder_createordercommand",
+      "fromNode": "n_src_coffeeorders_api_features_orders_createorder_createordercommand",
+      "toNode": "n_src_coffeeorders_api_features_orders_createorder_createordercommand_coffeeorders_api_features_orders_createorder_createordercommand",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_api_features_orders_createorder_createorderendpoint_coffeeorders_api_features_orders_createorder_createorderrequest_guid",
+      "fromNode": "n_src_coffeeorders_api_features_orders_createorder_createorderendpoint_coffeeorders_api_features_orders_createorder_createorderrequest",
+      "toNode": "n_guid",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_api_features_orders_createorder_createorderendpoint_coffeeorders_api_features_orders_createorder_createorderendpoint_addroutes_src_coffeeorders_api_features_orders_createorder_createorderendpoint_coffeeorders_api_features_orders_createorder_createorderrequest",
+      "fromNode": "n_src_coffeeorders_api_features_orders_createorder_createorderendpoint_coffeeorders_api_features_orders_createorder_createorderendpoint_addroutes",
+      "toNode": "n_src_coffeeorders_api_features_orders_createorder_createorderendpoint_coffeeorders_api_features_orders_createorder_createorderrequest",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_api_features_orders_createorder_createordervalidator_coffeeorders_api_features_orders_createorder_createordervalidator_src_coffeeorders_api_features_orders_createorder_createorderendpoint_coffeeorders_api_features_orders_createorder_createorderrequest",
+      "fromNode": "n_src_coffeeorders_api_features_orders_createorder_createordervalidator_coffeeorders_api_features_orders_createorder_createordervalidator",
+      "toNode": "n_src_coffeeorders_api_features_orders_createorder_createorderendpoint_coffeeorders_api_features_orders_createorder_createorderrequest",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_api_features_orders_createorder_createorderendpoint_src_coffeeorders_api_features_orders_createorder_createorderendpoint_coffeeorders_api_features_orders_createorder_createorderrequest",
+      "fromNode": "n_src_coffeeorders_api_features_orders_createorder_createorderendpoint",
+      "toNode": "n_src_coffeeorders_api_features_orders_createorder_createorderendpoint_coffeeorders_api_features_orders_createorder_createorderrequest",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_domain_common_entity_coffeeorders_domain_common_entity_datetime",
+      "fromNode": "n_src_coffeeorders_domain_common_entity_coffeeorders_domain_common_entity",
+      "toNode": "n_datetime",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_domain_common_entity_coffeeorders_domain_common_entity_guid",
+      "fromNode": "n_src_coffeeorders_domain_common_entity_coffeeorders_domain_common_entity",
+      "toNode": "n_guid",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_domain_common_entity_coffeeorders_domain_common_entity_src_coffeeorders_domain_common_entity_coffeeorders_domain_common_entity_isactive",
+      "fromNode": "n_src_coffeeorders_domain_common_entity_coffeeorders_domain_common_entity",
+      "toNode": "n_src_coffeeorders_domain_common_entity_coffeeorders_domain_common_entity_isactive",
+      "label": "defines [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_domain_common_entity_coffeeorders_domain_common_entity_src_coffeeorders_domain_common_entity_coffeeorders_domain_common_entity_id",
+      "fromNode": "n_src_coffeeorders_domain_common_entity_coffeeorders_domain_common_entity",
+      "toNode": "n_src_coffeeorders_domain_common_entity_coffeeorders_domain_common_entity_id",
+      "label": "defines [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_domain_common_entity_coffeeorders_domain_common_entity_src_coffeeorders_domain_common_entity_coffeeorders_domain_common_entity_createdby",
+      "fromNode": "n_src_coffeeorders_domain_common_entity_coffeeorders_domain_common_entity",
+      "toNode": "n_src_coffeeorders_domain_common_entity_coffeeorders_domain_common_entity_createdby",
+      "label": "defines [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_domain_common_entity_coffeeorders_domain_common_entity_src_coffeeorders_domain_common_entity_coffeeorders_domain_common_entity_createddate",
+      "fromNode": "n_src_coffeeorders_domain_common_entity_coffeeorders_domain_common_entity",
+      "toNode": "n_src_coffeeorders_domain_common_entity_coffeeorders_domain_common_entity_createddate",
+      "label": "defines [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_domain_common_entity_coffeeorders_domain_common_entity_src_coffeeorders_domain_common_entity_coffeeorders_domain_common_entity_updatedby",
+      "fromNode": "n_src_coffeeorders_domain_common_entity_coffeeorders_domain_common_entity",
+      "toNode": "n_src_coffeeorders_domain_common_entity_coffeeorders_domain_common_entity_updatedby",
+      "label": "defines [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_domain_common_entity_coffeeorders_domain_common_entity_src_coffeeorders_domain_common_entity_coffeeorders_domain_common_entity_updateddate",
+      "fromNode": "n_src_coffeeorders_domain_common_entity_coffeeorders_domain_common_entity",
+      "toNode": "n_src_coffeeorders_domain_common_entity_coffeeorders_domain_common_entity_updateddate",
+      "label": "defines [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_infrastructure_interceptors_auditableentityinterceptor_coffeeorders_infrastructure_interceptors_auditableentityinterceptor_updateentities_src_coffeeorders_domain_common_entity_coffeeorders_domain_common_entity",
+      "fromNode": "n_src_coffeeorders_infrastructure_interceptors_auditableentityinterceptor_coffeeorders_infrastructure_interceptors_auditableentityinterceptor_updateentities",
+      "toNode": "n_src_coffeeorders_domain_common_entity_coffeeorders_domain_common_entity",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_domain_coffee_coffeeorders_domain_coffee_src_coffeeorders_domain_common_entity_coffeeorders_domain_common_entity",
+      "fromNode": "n_src_coffeeorders_domain_coffee_coffeeorders_domain_coffee",
+      "toNode": "n_src_coffeeorders_domain_common_entity_coffeeorders_domain_common_entity",
+      "label": "inherits [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_domain_order_coffeeorders_domain_order_src_coffeeorders_domain_common_entity_coffeeorders_domain_common_entity",
+      "fromNode": "n_src_coffeeorders_domain_order_coffeeorders_domain_order",
+      "toNode": "n_src_coffeeorders_domain_common_entity_coffeeorders_domain_common_entity",
+      "label": "inherits [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_domain_common_entity_src_coffeeorders_domain_common_entity_coffeeorders_domain_common_entity",
+      "fromNode": "n_src_coffeeorders_domain_common_entity",
+      "toNode": "n_src_coffeeorders_domain_common_entity_coffeeorders_domain_common_entity",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_infrastructure_migrations_20261014080243_initialcreate_designer_coffeeorders_infrastructure_migrations_initialcreate_migration",
+      "fromNode": "n_src_coffeeorders_infrastructure_migrations_20261014080243_initialcreate_designer_coffeeorders_infrastructure_migrations_initialcreate",
+      "toNode": "n_migration",
+      "label": "inherits [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_infrastructure_migrations_20261014080243_initialcreate_src_coffeeorders_infrastructure_migrations_20261014080243_initialcreate_designer_coffeeorders_infrastructure_migrations_initialcreate",
+      "fromNode": "n_src_coffeeorders_infrastructure_migrations_20261014080243_initialcreate",
+      "toNode": "n_src_coffeeorders_infrastructure_migrations_20261014080243_initialcreate_designer_coffeeorders_infrastructure_migrations_initialcreate",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_infrastructure_migrations_20261014080243_initialcreate_designer_src_coffeeorders_infrastructure_migrations_20261014080243_initialcreate_designer_coffeeorders_infrastructure_migrations_initialcreate",
+      "fromNode": "n_src_coffeeorders_infrastructure_migrations_20261014080243_initialcreate_designer",
+      "toNode": "n_src_coffeeorders_infrastructure_migrations_20261014080243_initialcreate_designer_coffeeorders_infrastructure_migrations_initialcreate",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_infrastructure_migrations_20261014080243_initialcreate_designer_coffeeorders_infrastructure_migrations_initialcreate_src_coffeeorders_infrastructure_migrations_20261014080243_initialcreate_designer_coffeeorders_infrastructure_migrations_initialcreate_buildtargetmodel",
+      "fromNode": "n_src_coffeeorders_infrastructure_migrations_20261014080243_initialcreate_designer_coffeeorders_infrastructure_migrations_initialcreate",
+      "toNode": "n_src_coffeeorders_infrastructure_migrations_20261014080243_initialcreate_designer_coffeeorders_infrastructure_migrations_initialcreate_buildtargetmodel",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_infrastructure_migrations_20261014080243_initialcreate_designer_coffeeorders_infrastructure_migrations_initialcreate_src_coffeeorders_infrastructure_migrations_20261014080243_initialcreate_coffeeorders_infrastructure_migrations_initialcreate_up",
+      "fromNode": "n_src_coffeeorders_infrastructure_migrations_20261014080243_initialcreate_designer_coffeeorders_infrastructure_migrations_initialcreate",
+      "toNode": "n_src_coffeeorders_infrastructure_migrations_20261014080243_initialcreate_coffeeorders_infrastructure_migrations_initialcreate_up",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_infrastructure_migrations_20261014080243_initialcreate_designer_coffeeorders_infrastructure_migrations_initialcreate_src_coffeeorders_infrastructure_migrations_20261014080243_initialcreate_coffeeorders_infrastructure_migrations_initialcreate_down",
+      "fromNode": "n_src_coffeeorders_infrastructure_migrations_20261014080243_initialcreate_designer_coffeeorders_infrastructure_migrations_initialcreate",
+      "toNode": "n_src_coffeeorders_infrastructure_migrations_20261014080243_initialcreate_coffeeorders_infrastructure_migrations_initialcreate_down",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_infrastructure_migrations_20261014081200_columnsizes_designer_coffeeorders_infrastructure_migrations_columnsizes_migration",
+      "fromNode": "n_src_coffeeorders_infrastructure_migrations_20261014081200_columnsizes_designer_coffeeorders_infrastructure_migrations_columnsizes",
+      "toNode": "n_migration",
+      "label": "inherits [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_infrastructure_migrations_20261014081200_columnsizes_src_coffeeorders_infrastructure_migrations_20261014081200_columnsizes_designer_coffeeorders_infrastructure_migrations_columnsizes",
+      "fromNode": "n_src_coffeeorders_infrastructure_migrations_20261014081200_columnsizes",
+      "toNode": "n_src_coffeeorders_infrastructure_migrations_20261014081200_columnsizes_designer_coffeeorders_infrastructure_migrations_columnsizes",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_infrastructure_migrations_20261014081200_columnsizes_designer_src_coffeeorders_infrastructure_migrations_20261014081200_columnsizes_designer_coffeeorders_infrastructure_migrations_columnsizes",
+      "fromNode": "n_src_coffeeorders_infrastructure_migrations_20261014081200_columnsizes_designer",
+      "toNode": "n_src_coffeeorders_infrastructure_migrations_20261014081200_columnsizes_designer_coffeeorders_infrastructure_migrations_columnsizes",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_infrastructure_migrations_20261014081200_columnsizes_designer_coffeeorders_infrastructure_migrations_columnsizes_src_coffeeorders_infrastructure_migrations_20261014081200_columnsizes_designer_coffeeorders_infrastructure_migrations_columnsizes_buildtargetmodel",
+      "fromNode": "n_src_coffeeorders_infrastructure_migrations_20261014081200_columnsizes_designer_coffeeorders_infrastructure_migrations_columnsizes",
+      "toNode": "n_src_coffeeorders_infrastructure_migrations_20261014081200_columnsizes_designer_coffeeorders_infrastructure_migrations_columnsizes_buildtargetmodel",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_infrastructure_migrations_20261014081200_columnsizes_designer_coffeeorders_infrastructure_migrations_columnsizes_src_coffeeorders_infrastructure_migrations_20261014081200_columnsizes_coffeeorders_infrastructure_migrations_columnsizes_up",
+      "fromNode": "n_src_coffeeorders_infrastructure_migrations_20261014081200_columnsizes_designer_coffeeorders_infrastructure_migrations_columnsizes",
+      "toNode": "n_src_coffeeorders_infrastructure_migrations_20261014081200_columnsizes_coffeeorders_infrastructure_migrations_columnsizes_up",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_infrastructure_migrations_20261014081200_columnsizes_designer_coffeeorders_infrastructure_migrations_columnsizes_src_coffeeorders_infrastructure_migrations_20261014081200_columnsizes_coffeeorders_infrastructure_migrations_columnsizes_down",
+      "fromNode": "n_src_coffeeorders_infrastructure_migrations_20261014081200_columnsizes_designer_coffeeorders_infrastructure_migrations_columnsizes",
+      "toNode": "n_src_coffeeorders_infrastructure_migrations_20261014081200_columnsizes_coffeeorders_infrastructure_migrations_columnsizes_down",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_infrastructure_migrations_applicationdbcontextmodelsnapshot_coffeeorders_infrastructure_migrations_applicationdbcontextmodelsnapshot_modelsnapshot",
+      "fromNode": "n_src_coffeeorders_infrastructure_migrations_applicationdbcontextmodelsnapshot_coffeeorders_infrastructure_migrations_applicationdbcontextmodelsnapshot",
+      "toNode": "n_modelsnapshot",
+      "label": "inherits [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_infrastructure_migrations_applicationdbcontextmodelsnapshot_src_coffeeorders_infrastructure_migrations_applicationdbcontextmodelsnapshot_coffeeorders_infrastructure_migrations_applicationdbcontextmodelsnapshot",
+      "fromNode": "n_src_coffeeorders_infrastructure_migrations_applicationdbcontextmodelsnapshot",
+      "toNode": "n_src_coffeeorders_infrastructure_migrations_applicationdbcontextmodelsnapshot_coffeeorders_infrastructure_migrations_applicationdbcontextmodelsnapshot",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_infrastructure_migrations_applicationdbcontextmodelsnapshot_coffeeorders_infrastructure_migrations_applicationdbcontextmodelsnapshot_src_coffeeorders_infrastructure_migrations_applicationdbcontextmodelsnapshot_coffeeorders_infrastructure_migrations_applicationdbcontextmodelsnapshot_buildmodel",
+      "fromNode": "n_src_coffeeorders_infrastructure_migrations_applicationdbcontextmodelsnapshot_coffeeorders_infrastructure_migrations_applicationdbcontextmodelsnapshot",
+      "toNode": "n_src_coffeeorders_infrastructure_migrations_applicationdbcontextmodelsnapshot_coffeeorders_infrastructure_migrations_applicationdbcontextmodelsnapshot_buildmodel",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_api_features_orders_clearallorders_clearallordershandler_src_coffeeorders_api_features_orders_clearallorders_clearallordershandler_coffeeorders_api_features_orders_clearallorders_clearallordershandler",
+      "fromNode": "n_src_coffeeorders_api_features_orders_clearallorders_clearallordershandler",
+      "toNode": "n_src_coffeeorders_api_features_orders_clearallorders_clearallordershandler_coffeeorders_api_features_orders_clearallorders_clearallordershandler",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_api_features_orders_clearallorders_clearallordershandler_coffeeorders_api_features_orders_clearallorders_clearallordershandler_src_coffeeorders_api_features_orders_clearallorders_clearallordershandler_coffeeorders_api_features_orders_clearallorders_clearallordershandler_handle",
+      "fromNode": "n_src_coffeeorders_api_features_orders_clearallorders_clearallordershandler_coffeeorders_api_features_orders_clearallorders_clearallordershandler",
+      "toNode": "n_src_coffeeorders_api_features_orders_clearallorders_clearallordershandler_coffeeorders_api_features_orders_clearallorders_clearallordershandler_handle",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_api_features_orders_createorder_createorderendpoint_coffeeorders_api_features_orders_createorder_createorderresponse_orderdto",
+      "fromNode": "n_src_coffeeorders_api_features_orders_createorder_createorderendpoint_coffeeorders_api_features_orders_createorder_createorderresponse",
+      "toNode": "n_orderdto",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_api_features_orders_createorder_createorderendpoint_coffeeorders_api_features_orders_createorder_createorderendpoint_addroutes_src_coffeeorders_api_features_orders_createorder_createorderendpoint_coffeeorders_api_features_orders_createorder_createorderresponse",
+      "fromNode": "n_src_coffeeorders_api_features_orders_createorder_createorderendpoint_coffeeorders_api_features_orders_createorder_createorderendpoint_addroutes",
+      "toNode": "n_src_coffeeorders_api_features_orders_createorder_createorderendpoint_coffeeorders_api_features_orders_createorder_createorderresponse",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_api_features_orders_createorder_createorderhandler_coffeeorders_api_features_orders_createorder_createorderhandler_handle_src_coffeeorders_api_features_orders_createorder_createorderendpoint_coffeeorders_api_features_orders_createorder_createorderresponse",
+      "fromNode": "n_src_coffeeorders_api_features_orders_createorder_createorderhandler_coffeeorders_api_features_orders_createorder_createorderhandler_handle",
+      "toNode": "n_src_coffeeorders_api_features_orders_createorder_createorderendpoint_coffeeorders_api_features_orders_createorder_createorderresponse",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_api_features_orders_createorder_createorderendpoint_src_coffeeorders_api_features_orders_createorder_createorderendpoint_coffeeorders_api_features_orders_createorder_createorderresponse",
+      "fromNode": "n_src_coffeeorders_api_features_orders_createorder_createorderendpoint",
+      "toNode": "n_src_coffeeorders_api_features_orders_createorder_createorderendpoint_coffeeorders_api_features_orders_createorder_createorderresponse",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_api_features_orders_createorder_createordervalidator_coffeeorders_api_features_orders_createorder_createordervalidator_applicationdbcontext",
+      "fromNode": "n_src_coffeeorders_api_features_orders_createorder_createordervalidator_coffeeorders_api_features_orders_createorder_createordervalidator",
+      "toNode": "n_applicationdbcontext",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_api_features_orders_createorder_createordervalidator_coffeeorders_api_features_orders_createorder_createordervalidator_abstractvalidator",
+      "fromNode": "n_src_coffeeorders_api_features_orders_createorder_createordervalidator_coffeeorders_api_features_orders_createorder_createordervalidator",
+      "toNode": "n_abstractvalidator",
+      "label": "inherits [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_api_features_orders_createorder_createordervalidator_src_coffeeorders_api_features_orders_createorder_createordervalidator_coffeeorders_api_features_orders_createorder_createordervalidator",
+      "fromNode": "n_src_coffeeorders_api_features_orders_createorder_createordervalidator",
+      "toNode": "n_src_coffeeorders_api_features_orders_createorder_createordervalidator_coffeeorders_api_features_orders_createorder_createordervalidator",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_api_features_orders_createorder_createordervalidator_coffeeorders_api_features_orders_createorder_createordervalidator_src_coffeeorders_api_features_orders_createorder_createordervalidator_coffeeorders_api_features_orders_createorder_createordervalidator_statusexists",
+      "fromNode": "n_src_coffeeorders_api_features_orders_createorder_createordervalidator_coffeeorders_api_features_orders_createorder_createordervalidator",
+      "toNode": "n_src_coffeeorders_api_features_orders_createorder_createordervalidator_coffeeorders_api_features_orders_createorder_createordervalidator_statusexists",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_api_features_orders_createorder_createordervalidator_coffeeorders_api_features_orders_createorder_createordervalidator_src_coffeeorders_api_features_orders_createorder_createordervalidator_coffeeorders_api_features_orders_createorder_createordervalidator_sizeexists",
+      "fromNode": "n_src_coffeeorders_api_features_orders_createorder_createordervalidator_coffeeorders_api_features_orders_createorder_createordervalidator",
+      "toNode": "n_src_coffeeorders_api_features_orders_createorder_createordervalidator_coffeeorders_api_features_orders_createorder_createordervalidator_sizeexists",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_api_features_orders_createorder_createordervalidator_coffeeorders_api_features_orders_createorder_createordervalidator_src_coffeeorders_api_features_orders_createorder_createordervalidator_coffeeorders_api_features_orders_createorder_createordervalidator_coffeeidexistsandactiveasync",
+      "fromNode": "n_src_coffeeorders_api_features_orders_createorder_createordervalidator_coffeeorders_api_features_orders_createorder_createordervalidator",
+      "toNode": "n_src_coffeeorders_api_features_orders_createorder_createordervalidator_coffeeorders_api_features_orders_createorder_createordervalidator_coffeeidexistsandactiveasync",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_api_features_orders_getorders_getordersendpoint_coffeeorders_api_features_orders_getorders_getordersendpoint_icartermodule",
+      "fromNode": "n_src_coffeeorders_api_features_orders_getorders_getordersendpoint_coffeeorders_api_features_orders_getorders_getordersendpoint",
+      "toNode": "n_icartermodule",
+      "label": "implements [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_api_features_orders_getorders_getordersendpoint_src_coffeeorders_api_features_orders_getorders_getordersendpoint_coffeeorders_api_features_orders_getorders_getordersendpoint",
+      "fromNode": "n_src_coffeeorders_api_features_orders_getorders_getordersendpoint",
+      "toNode": "n_src_coffeeorders_api_features_orders_getorders_getordersendpoint_coffeeorders_api_features_orders_getorders_getordersendpoint",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_api_features_orders_getorders_getordersendpoint_coffeeorders_api_features_orders_getorders_getordersendpoint_src_coffeeorders_api_features_orders_getorders_getordersendpoint_coffeeorders_api_features_orders_getorders_getordersendpoint_addroutes",
+      "fromNode": "n_src_coffeeorders_api_features_orders_getorders_getordersendpoint_coffeeorders_api_features_orders_getorders_getordersendpoint",
+      "toNode": "n_src_coffeeorders_api_features_orders_getorders_getordersendpoint_coffeeorders_api_features_orders_getorders_getordersendpoint_addroutes",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_api_features_orders_getorders_getordersendpoint_coffeeorders_api_features_orders_getorders_getordersresponse_paginationresponse",
+      "fromNode": "n_src_coffeeorders_api_features_orders_getorders_getordersendpoint_coffeeorders_api_features_orders_getorders_getordersresponse",
+      "toNode": "n_paginationresponse",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_api_features_orders_getorders_getordersendpoint_coffeeorders_api_features_orders_getorders_getordersendpoint_addroutes_src_coffeeorders_api_features_orders_getorders_getordersendpoint_coffeeorders_api_features_orders_getorders_getordersresponse",
+      "fromNode": "n_src_coffeeorders_api_features_orders_getorders_getordersendpoint_coffeeorders_api_features_orders_getorders_getordersendpoint_addroutes",
+      "toNode": "n_src_coffeeorders_api_features_orders_getorders_getordersendpoint_coffeeorders_api_features_orders_getorders_getordersresponse",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_api_features_orders_getorders_getordershandler_coffeeorders_api_features_orders_getorders_getordershandler_handle_src_coffeeorders_api_features_orders_getorders_getordersendpoint_coffeeorders_api_features_orders_getorders_getordersresponse",
+      "fromNode": "n_src_coffeeorders_api_features_orders_getorders_getordershandler_coffeeorders_api_features_orders_getorders_getordershandler_handle",
+      "toNode": "n_src_coffeeorders_api_features_orders_getorders_getordersendpoint_coffeeorders_api_features_orders_getorders_getordersresponse",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_api_features_orders_getorders_getordersendpoint_coffeeorders_api_features_orders_getorders_getordersresponse_orderdto",
+      "fromNode": "n_src_coffeeorders_api_features_orders_getorders_getordersendpoint_coffeeorders_api_features_orders_getorders_getordersresponse",
+      "toNode": "n_orderdto",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_api_features_orders_getorders_getordersendpoint_src_coffeeorders_api_features_orders_getorders_getordersendpoint_coffeeorders_api_features_orders_getorders_getordersresponse",
+      "fromNode": "n_src_coffeeorders_api_features_orders_getorders_getordersendpoint",
+      "toNode": "n_src_coffeeorders_api_features_orders_getorders_getordersendpoint_coffeeorders_api_features_orders_getorders_getordersresponse",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_api_features_orders_getorders_getordershandler_src_coffeeorders_api_features_orders_getorders_getordershandler_coffeeorders_api_features_orders_getorders_getordershandler",
+      "fromNode": "n_src_coffeeorders_api_features_orders_getorders_getordershandler",
+      "toNode": "n_src_coffeeorders_api_features_orders_getorders_getordershandler_coffeeorders_api_features_orders_getorders_getordershandler",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_api_features_orders_getorders_getordershandler_coffeeorders_api_features_orders_getorders_getordershandler_src_coffeeorders_api_features_orders_getorders_getordershandler_coffeeorders_api_features_orders_getorders_getordershandler_handle",
+      "fromNode": "n_src_coffeeorders_api_features_orders_getorders_getordershandler_coffeeorders_api_features_orders_getorders_getordershandler",
+      "toNode": "n_src_coffeeorders_api_features_orders_getorders_getordershandler_coffeeorders_api_features_orders_getorders_getordershandler_handle",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_api_features_orders_getorders_getordersquery_coffeeorders_api_features_orders_getorders_getordersquery_paginationrequest",
+      "fromNode": "n_src_coffeeorders_api_features_orders_getorders_getordersquery_coffeeorders_api_features_orders_getorders_getordersquery",
+      "toNode": "n_paginationrequest",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_api_features_orders_getorders_getordershandler_coffeeorders_api_features_orders_getorders_getordershandler_handle_src_coffeeorders_api_features_orders_getorders_getordersquery_coffeeorders_api_features_orders_getorders_getordersquery",
+      "fromNode": "n_src_coffeeorders_api_features_orders_getorders_getordershandler_coffeeorders_api_features_orders_getorders_getordershandler_handle",
+      "toNode": "n_src_coffeeorders_api_features_orders_getorders_getordersquery_coffeeorders_api_features_orders_getorders_getordersquery",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_api_features_orders_getorders_getordersquery_src_coffeeorders_api_features_orders_getorders_getordersquery_coffeeorders_api_features_orders_getorders_getordersquery",
+      "fromNode": "n_src_coffeeorders_api_features_orders_getorders_getordersquery",
+      "toNode": "n_src_coffeeorders_api_features_orders_getorders_getordersquery_coffeeorders_api_features_orders_getorders_getordersquery",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_api_features_orders_getorders_getordersendpoint_coffeeorders_api_features_orders_getorders_getordersendpoint_addroutes_src_coffeeorders_api_features_orders_getorders_getordersquery_coffeeorders_api_features_orders_getorders_getordersquery",
+      "fromNode": "n_src_coffeeorders_api_features_orders_getorders_getordersendpoint_coffeeorders_api_features_orders_getorders_getordersendpoint_addroutes",
+      "toNode": "n_src_coffeeorders_api_features_orders_getorders_getordersquery_coffeeorders_api_features_orders_getorders_getordersquery",
+      "label": "calls [INFERRED]"
+    },
+    {
+      "id": "e_src_coffeeorders_infrastructure_extensions_databaseextensions_src_coffeeorders_infrastructure_extensions_databaseextensions_coffeeorders_infrastructure_extensions_databaseextensions",
+      "fromNode": "n_src_coffeeorders_infrastructure_extensions_databaseextensions",
+      "toNode": "n_src_coffeeorders_infrastructure_extensions_databaseextensions_coffeeorders_infrastructure_extensions_databaseextensions",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_infrastructure_extensions_databaseextensions_coffeeorders_infrastructure_extensions_databaseextensions_src_coffeeorders_infrastructure_extensions_databaseextensions_coffeeorders_infrastructure_extensions_databaseextensions_haschangedownentities",
+      "fromNode": "n_src_coffeeorders_infrastructure_extensions_databaseextensions_coffeeorders_infrastructure_extensions_databaseextensions",
+      "toNode": "n_src_coffeeorders_infrastructure_extensions_databaseextensions_coffeeorders_infrastructure_extensions_databaseextensions_haschangedownentities",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_infrastructure_extensions_databaseextensions_coffeeorders_infrastructure_extensions_databaseextensions_src_coffeeorders_infrastructure_extensions_databaseextensions_coffeeorders_infrastructure_extensions_databaseextensions_initializedatabaseasync",
+      "fromNode": "n_src_coffeeorders_infrastructure_extensions_databaseextensions_coffeeorders_infrastructure_extensions_databaseextensions",
+      "toNode": "n_src_coffeeorders_infrastructure_extensions_databaseextensions_coffeeorders_infrastructure_extensions_databaseextensions_initializedatabaseasync",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_domain_constants_coffeesize_coffeeorders_domain_constants_coffeesize_src_coffeeorders_domain_constants_coffeesize_coffeeorders_domain_constants_coffeesize_small",
+      "fromNode": "n_src_coffeeorders_domain_constants_coffeesize_coffeeorders_domain_constants_coffeesize",
+      "toNode": "n_src_coffeeorders_domain_constants_coffeesize_coffeeorders_domain_constants_coffeesize_small",
+      "label": "defines [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_domain_constants_coffeesize_coffeeorders_domain_constants_coffeesize_src_coffeeorders_domain_constants_coffeesize_coffeeorders_domain_constants_coffeesize_medium",
+      "fromNode": "n_src_coffeeorders_domain_constants_coffeesize_coffeeorders_domain_constants_coffeesize",
+      "toNode": "n_src_coffeeorders_domain_constants_coffeesize_coffeeorders_domain_constants_coffeesize_medium",
+      "label": "defines [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_domain_constants_coffeesize_coffeeorders_domain_constants_coffeesize_src_coffeeorders_domain_constants_coffeesize_coffeeorders_domain_constants_coffeesize_large",
+      "fromNode": "n_src_coffeeorders_domain_constants_coffeesize_coffeeorders_domain_constants_coffeesize",
+      "toNode": "n_src_coffeeorders_domain_constants_coffeesize_coffeeorders_domain_constants_coffeesize_large",
+      "label": "defines [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_domain_constants_coffeesize_src_coffeeorders_domain_constants_coffeesize_coffeeorders_domain_constants_coffeesize",
+      "fromNode": "n_src_coffeeorders_domain_constants_coffeesize",
+      "toNode": "n_src_coffeeorders_domain_constants_coffeesize_coffeeorders_domain_constants_coffeesize",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_domain_constants_orderstatus_coffeeorders_domain_constants_orderstatus_src_coffeeorders_domain_constants_orderstatus_coffeeorders_domain_constants_orderstatus_refunded",
+      "fromNode": "n_src_coffeeorders_domain_constants_orderstatus_coffeeorders_domain_constants_orderstatus",
+      "toNode": "n_src_coffeeorders_domain_constants_orderstatus_coffeeorders_domain_constants_orderstatus_refunded",
+      "label": "defines [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_domain_constants_orderstatus_coffeeorders_domain_constants_orderstatus_src_coffeeorders_domain_constants_orderstatus_coffeeorders_domain_constants_orderstatus_preparing",
+      "fromNode": "n_src_coffeeorders_domain_constants_orderstatus_coffeeorders_domain_constants_orderstatus",
+      "toNode": "n_src_coffeeorders_domain_constants_orderstatus_coffeeorders_domain_constants_orderstatus_preparing",
+      "label": "defines [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_domain_constants_orderstatus_coffeeorders_domain_constants_orderstatus_src_coffeeorders_domain_constants_orderstatus_coffeeorders_domain_constants_orderstatus_serving",
+      "fromNode": "n_src_coffeeorders_domain_constants_orderstatus_coffeeorders_domain_constants_orderstatus",
+      "toNode": "n_src_coffeeorders_domain_constants_orderstatus_coffeeorders_domain_constants_orderstatus_serving",
+      "label": "defines [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_domain_constants_orderstatus_coffeeorders_domain_constants_orderstatus_src_coffeeorders_domain_constants_orderstatus_coffeeorders_domain_constants_orderstatus_completed",
+      "fromNode": "n_src_coffeeorders_domain_constants_orderstatus_coffeeorders_domain_constants_orderstatus",
+      "toNode": "n_src_coffeeorders_domain_constants_orderstatus_coffeeorders_domain_constants_orderstatus_completed",
+      "label": "defines [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_domain_constants_orderstatus_coffeeorders_domain_constants_orderstatus_src_coffeeorders_domain_constants_orderstatus_coffeeorders_domain_constants_orderstatus_onhold",
+      "fromNode": "n_src_coffeeorders_domain_constants_orderstatus_coffeeorders_domain_constants_orderstatus",
+      "toNode": "n_src_coffeeorders_domain_constants_orderstatus_coffeeorders_domain_constants_orderstatus_onhold",
+      "label": "defines [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_domain_constants_orderstatus_coffeeorders_domain_constants_orderstatus_src_coffeeorders_domain_constants_orderstatus_coffeeorders_domain_constants_orderstatus_cancelled",
+      "fromNode": "n_src_coffeeorders_domain_constants_orderstatus_coffeeorders_domain_constants_orderstatus",
+      "toNode": "n_src_coffeeorders_domain_constants_orderstatus_coffeeorders_domain_constants_orderstatus_cancelled",
+      "label": "defines [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_domain_constants_orderstatus_src_coffeeorders_domain_constants_orderstatus_coffeeorders_domain_constants_orderstatus",
+      "fromNode": "n_src_coffeeorders_domain_constants_orderstatus",
+      "toNode": "n_src_coffeeorders_domain_constants_orderstatus_coffeeorders_domain_constants_orderstatus",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_api_features_orders_clearallorders_clearallordershandler_coffeeorders_api_features_orders_clearallorders_clearallordershandler_handle_src_coffeeorders_api_features_orders_clearallorders_clearallordercommand_coffeeorders_api_features_orders_clearallorders_clearallordercommand",
+      "fromNode": "n_src_coffeeorders_api_features_orders_clearallorders_clearallordershandler_coffeeorders_api_features_orders_clearallorders_clearallordershandler_handle",
+      "toNode": "n_src_coffeeorders_api_features_orders_clearallorders_clearallordercommand_coffeeorders_api_features_orders_clearallorders_clearallordercommand",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_api_features_orders_clearallorders_clearallordercommand_src_coffeeorders_api_features_orders_clearallorders_clearallordercommand_coffeeorders_api_features_orders_clearallorders_clearallordercommand",
+      "fromNode": "n_src_coffeeorders_api_features_orders_clearallorders_clearallordercommand",
+      "toNode": "n_src_coffeeorders_api_features_orders_clearallorders_clearallordercommand_coffeeorders_api_features_orders_clearallorders_clearallordercommand",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_api_features_orders_clearallorders_clearallordersendpoint_coffeeorders_api_features_orders_clearallorders_clearallordersendpoint_addroutes_src_coffeeorders_api_features_orders_clearallorders_clearallordercommand_coffeeorders_api_features_orders_clearallorders_clearallordercommand",
+      "fromNode": "n_src_coffeeorders_api_features_orders_clearallorders_clearallordersendpoint_coffeeorders_api_features_orders_clearallorders_clearallordersendpoint_addroutes",
+      "toNode": "n_src_coffeeorders_api_features_orders_clearallorders_clearallordercommand_coffeeorders_api_features_orders_clearallorders_clearallordercommand",
+      "label": "calls [INFERRED]"
+    },
+    {
+      "id": "e_src_coffeeorders_api_features_orders_clearallorders_clearallordersendpoint_coffeeorders_api_features_orders_clearallorders_clearallordersendpoint_icartermodule",
+      "fromNode": "n_src_coffeeorders_api_features_orders_clearallorders_clearallordersendpoint_coffeeorders_api_features_orders_clearallorders_clearallordersendpoint",
+      "toNode": "n_icartermodule",
+      "label": "implements [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_api_features_orders_clearallorders_clearallordersendpoint_src_coffeeorders_api_features_orders_clearallorders_clearallordersendpoint_coffeeorders_api_features_orders_clearallorders_clearallordersendpoint",
+      "fromNode": "n_src_coffeeorders_api_features_orders_clearallorders_clearallordersendpoint",
+      "toNode": "n_src_coffeeorders_api_features_orders_clearallorders_clearallordersendpoint_coffeeorders_api_features_orders_clearallorders_clearallordersendpoint",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_api_features_orders_clearallorders_clearallordersendpoint_coffeeorders_api_features_orders_clearallorders_clearallordersendpoint_src_coffeeorders_api_features_orders_clearallorders_clearallordersendpoint_coffeeorders_api_features_orders_clearallorders_clearallordersendpoint_addroutes",
+      "fromNode": "n_src_coffeeorders_api_features_orders_clearallorders_clearallordersendpoint_coffeeorders_api_features_orders_clearallorders_clearallordersendpoint",
+      "toNode": "n_src_coffeeorders_api_features_orders_clearallorders_clearallordersendpoint_coffeeorders_api_features_orders_clearallorders_clearallordersendpoint_addroutes",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_api_features_orders_createorder_createorderendpoint_coffeeorders_api_features_orders_createorder_createorderendpoint_icartermodule",
+      "fromNode": "n_src_coffeeorders_api_features_orders_createorder_createorderendpoint_coffeeorders_api_features_orders_createorder_createorderendpoint",
+      "toNode": "n_icartermodule",
+      "label": "implements [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_api_features_orders_createorder_createorderendpoint_src_coffeeorders_api_features_orders_createorder_createorderendpoint_coffeeorders_api_features_orders_createorder_createorderendpoint",
+      "fromNode": "n_src_coffeeorders_api_features_orders_createorder_createorderendpoint",
+      "toNode": "n_src_coffeeorders_api_features_orders_createorder_createorderendpoint_coffeeorders_api_features_orders_createorder_createorderendpoint",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_api_features_orders_createorder_createorderendpoint_coffeeorders_api_features_orders_createorder_createorderendpoint_src_coffeeorders_api_features_orders_createorder_createorderendpoint_coffeeorders_api_features_orders_createorder_createorderendpoint_addroutes",
+      "fromNode": "n_src_coffeeorders_api_features_orders_createorder_createorderendpoint_coffeeorders_api_features_orders_createorder_createorderendpoint",
+      "toNode": "n_src_coffeeorders_api_features_orders_createorder_createorderendpoint_coffeeorders_api_features_orders_createorder_createorderendpoint_addroutes",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_api_shared_exceptions_badrequestexception_src_coffeeorders_api_shared_exceptions_badrequestexception_coffeeorders_api_shared_exceptions_badrequestexception",
+      "fromNode": "n_src_coffeeorders_api_shared_exceptions_badrequestexception",
+      "toNode": "n_src_coffeeorders_api_shared_exceptions_badrequestexception_coffeeorders_api_shared_exceptions_badrequestexception",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_api_shared_exceptions_internalservererrorexception_src_coffeeorders_api_shared_exceptions_internalservererrorexception_coffeeorders_api_shared_exceptions_internalservererrorexception",
+      "fromNode": "n_src_coffeeorders_api_shared_exceptions_internalservererrorexception",
+      "toNode": "n_src_coffeeorders_api_shared_exceptions_internalservererrorexception_coffeeorders_api_shared_exceptions_internalservererrorexception",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_api_shared_exceptions_notfoundexception_src_coffeeorders_api_shared_exceptions_notfoundexception_coffeeorders_api_shared_exceptions_notfoundexception",
+      "fromNode": "n_src_coffeeorders_api_shared_exceptions_notfoundexception",
+      "toNode": "n_src_coffeeorders_api_shared_exceptions_notfoundexception_coffeeorders_api_shared_exceptions_notfoundexception",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_api_features_orders_updateorder_updateordercommand_src_coffeeorders_api_features_orders_updateorder_updateordercommand_coffeeorders_api_features_orders_updateorder_updateordercommand",
+      "fromNode": "n_src_coffeeorders_api_features_orders_updateorder_updateordercommand",
+      "toNode": "n_src_coffeeorders_api_features_orders_updateorder_updateordercommand_coffeeorders_api_features_orders_updateorder_updateordercommand",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_api_features_orders_updateorder_updateorderendpoint_src_coffeeorders_api_features_orders_updateorder_updateorderendpoint_coffeeorders_api_features_orders_updateorder_updateorderendpoint",
+      "fromNode": "n_src_coffeeorders_api_features_orders_updateorder_updateorderendpoint",
+      "toNode": "n_src_coffeeorders_api_features_orders_updateorder_updateorderendpoint_coffeeorders_api_features_orders_updateorder_updateorderendpoint",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_api_features_orders_updateorder_updateorderhandler_src_coffeeorders_api_features_orders_updateorder_updateorderhandler_coffeeorders_api_features_orders_updateorder_updateorderhandler",
+      "fromNode": "n_src_coffeeorders_api_features_orders_updateorder_updateorderhandler",
+      "toNode": "n_src_coffeeorders_api_features_orders_updateorder_updateorderhandler_coffeeorders_api_features_orders_updateorder_updateorderhandler",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_api_features_orders_getorderdetails_getorderdetailsendpoint_src_coffeeorders_api_features_orders_getorderdetails_getorderdetailsendpoint_coffeeorders_api_features_orders_getorderdetails_getorderdetailsendpoint",
+      "fromNode": "n_src_coffeeorders_api_features_orders_getorderdetails_getorderdetailsendpoint",
+      "toNode": "n_src_coffeeorders_api_features_orders_getorderdetails_getorderdetailsendpoint_coffeeorders_api_features_orders_getorderdetails_getorderdetailsendpoint",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_api_features_orders_getorderdetails_getorderdetailshandler_src_coffeeorders_api_features_orders_getorderdetails_getorderdetailshandler_coffeeorders_api_features_orders_getorderdetails_getorderdetailshandler",
+      "fromNode": "n_src_coffeeorders_api_features_orders_getorderdetails_getorderdetailshandler",
+      "toNode": "n_src_coffeeorders_api_features_orders_getorderdetails_getorderdetailshandler_coffeeorders_api_features_orders_getorderdetails_getorderdetailshandler",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_api_features_orders_getorderdetails_getorderdetailsquery_src_coffeeorders_api_features_orders_getorderdetails_getorderdetailsquery_coffeeorders_api_features_orders_getorderdetails_getorderdetailsquery",
+      "fromNode": "n_src_coffeeorders_api_features_orders_getorderdetails_getorderdetailsquery",
+      "toNode": "n_src_coffeeorders_api_features_orders_getorderdetails_getorderdetailsquery_coffeeorders_api_features_orders_getorderdetails_getorderdetailsquery",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_api_features_orders_deleteorder_deleteordercommand_src_coffeeorders_api_features_orders_deleteorder_deleteordercommand_coffeeorders_api_features_orders_deleteorder_deleteordercommand",
+      "fromNode": "n_src_coffeeorders_api_features_orders_deleteorder_deleteordercommand",
+      "toNode": "n_src_coffeeorders_api_features_orders_deleteorder_deleteordercommand_coffeeorders_api_features_orders_deleteorder_deleteordercommand",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_api_features_orders_deleteorder_deleteorderendpoint_src_coffeeorders_api_features_orders_deleteorder_deleteorderendpoint_coffeeorders_api_features_orders_deleteorder_deleteorderendpoint",
+      "fromNode": "n_src_coffeeorders_api_features_orders_deleteorder_deleteorderendpoint",
+      "toNode": "n_src_coffeeorders_api_features_orders_deleteorder_deleteorderendpoint_coffeeorders_api_features_orders_deleteorder_deleteorderendpoint",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_api_features_orders_deleteorder_deleteorderhandler_src_coffeeorders_api_features_orders_deleteorder_deleteorderhandler_coffeeorders_api_features_orders_deleteorder_deleteorderhandler",
+      "fromNode": "n_src_coffeeorders_api_features_orders_deleteorder_deleteorderhandler",
+      "toNode": "n_src_coffeeorders_api_features_orders_deleteorder_deleteorderhandler_coffeeorders_api_features_orders_deleteorder_deleteorderhandler",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_api_features_orders_createorder_createorderhandler_src_coffeeorders_api_features_orders_createorder_createorderhandler_coffeeorders_api_features_orders_createorder_createorderhandler",
+      "fromNode": "n_src_coffeeorders_api_features_orders_createorder_createorderhandler",
+      "toNode": "n_src_coffeeorders_api_features_orders_createorder_createorderhandler_coffeeorders_api_features_orders_createorder_createorderhandler",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_api_features_orders_createorder_createorderhandler_coffeeorders_api_features_orders_createorder_createorderhandler_src_coffeeorders_api_features_orders_createorder_createorderhandler_coffeeorders_api_features_orders_createorder_createorderhandler_handle",
+      "fromNode": "n_src_coffeeorders_api_features_orders_createorder_createorderhandler_coffeeorders_api_features_orders_createorder_createorderhandler",
+      "toNode": "n_src_coffeeorders_api_features_orders_createorder_createorderhandler_coffeeorders_api_features_orders_createorder_createorderhandler_handle",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_domain_coffee_coffeeorders_domain_coffee_list",
+      "fromNode": "n_src_coffeeorders_domain_coffee_coffeeorders_domain_coffee",
+      "toNode": "n_list",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_domain_coffee_coffeeorders_domain_coffee_src_coffeeorders_domain_coffee_coffeeorders_domain_coffee_photo",
+      "fromNode": "n_src_coffeeorders_domain_coffee_coffeeorders_domain_coffee",
+      "toNode": "n_src_coffeeorders_domain_coffee_coffeeorders_domain_coffee_photo",
+      "label": "defines [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_domain_coffee_coffeeorders_domain_coffee_src_coffeeorders_domain_coffee_coffeeorders_domain_coffee_orders",
+      "fromNode": "n_src_coffeeorders_domain_coffee_coffeeorders_domain_coffee",
+      "toNode": "n_src_coffeeorders_domain_coffee_coffeeorders_domain_coffee_orders",
+      "label": "defines [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_domain_coffee_coffeeorders_domain_coffee_src_coffeeorders_domain_coffee_coffeeorders_domain_coffee_name",
+      "fromNode": "n_src_coffeeorders_domain_coffee_coffeeorders_domain_coffee",
+      "toNode": "n_src_coffeeorders_domain_coffee_coffeeorders_domain_coffee_name",
+      "label": "defines [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_domain_coffee_coffeeorders_domain_coffee_src_coffeeorders_domain_coffee_coffeeorders_domain_coffee_description",
+      "fromNode": "n_src_coffeeorders_domain_coffee_coffeeorders_domain_coffee",
+      "toNode": "n_src_coffeeorders_domain_coffee_coffeeorders_domain_coffee_description",
+      "label": "defines [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_domain_coffee_coffeeorders_domain_coffee_src_coffeeorders_domain_coffee_coffeeorders_domain_coffee_skucode",
+      "fromNode": "n_src_coffeeorders_domain_coffee_coffeeorders_domain_coffee",
+      "toNode": "n_src_coffeeorders_domain_coffee_coffeeorders_domain_coffee_skucode",
+      "label": "defines [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_infrastructure_applicationdbcontext_coffeeorders_infrastructure_applicationdbcontext_src_coffeeorders_domain_coffee_coffeeorders_domain_coffee",
+      "fromNode": "n_src_coffeeorders_infrastructure_applicationdbcontext_coffeeorders_infrastructure_applicationdbcontext",
+      "toNode": "n_src_coffeeorders_domain_coffee_coffeeorders_domain_coffee",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_infrastructure_configurations_coffeeconfiguration_coffeeorders_infrastructure_configurations_coffeeconfiguration_src_coffeeorders_domain_coffee_coffeeorders_domain_coffee",
+      "fromNode": "n_src_coffeeorders_infrastructure_configurations_coffeeconfiguration_coffeeorders_infrastructure_configurations_coffeeconfiguration",
+      "toNode": "n_src_coffeeorders_domain_coffee_coffeeorders_domain_coffee",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_infrastructure_configurations_coffeeconfiguration_coffeeorders_infrastructure_configurations_coffeeconfiguration_configure_src_coffeeorders_domain_coffee_coffeeorders_domain_coffee",
+      "fromNode": "n_src_coffeeorders_infrastructure_configurations_coffeeconfiguration_coffeeorders_infrastructure_configurations_coffeeconfiguration_configure",
+      "toNode": "n_src_coffeeorders_domain_coffee_coffeeorders_domain_coffee",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_domain_coffee_coffeeorders_domain_coffee_src_coffeeorders_domain_order_coffeeorders_domain_order",
+      "fromNode": "n_src_coffeeorders_domain_coffee_coffeeorders_domain_coffee",
+      "toNode": "n_src_coffeeorders_domain_order_coffeeorders_domain_order",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_domain_coffee_src_coffeeorders_domain_coffee_coffeeorders_domain_coffee",
+      "fromNode": "n_src_coffeeorders_domain_coffee",
+      "toNode": "n_src_coffeeorders_domain_coffee_coffeeorders_domain_coffee",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_domain_order_coffeeorders_domain_order_guid",
+      "fromNode": "n_src_coffeeorders_domain_order_coffeeorders_domain_order",
+      "toNode": "n_guid",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_domain_order_coffeeorders_domain_order_src_coffeeorders_domain_order_coffeeorders_domain_order_size",
+      "fromNode": "n_src_coffeeorders_domain_order_coffeeorders_domain_order",
+      "toNode": "n_src_coffeeorders_domain_order_coffeeorders_domain_order_size",
+      "label": "defines [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_domain_order_coffeeorders_domain_order_src_coffeeorders_domain_order_coffeeorders_domain_order_status",
+      "fromNode": "n_src_coffeeorders_domain_order_coffeeorders_domain_order",
+      "toNode": "n_src_coffeeorders_domain_order_coffeeorders_domain_order_status",
+      "label": "defines [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_domain_order_coffeeorders_domain_order_src_coffeeorders_domain_order_coffeeorders_domain_order_coffeeid",
+      "fromNode": "n_src_coffeeorders_domain_order_coffeeorders_domain_order",
+      "toNode": "n_src_coffeeorders_domain_order_coffeeorders_domain_order_coffeeid",
+      "label": "defines [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_domain_order_coffeeorders_domain_order_src_coffeeorders_domain_order_coffeeorders_domain_order_ordername",
+      "fromNode": "n_src_coffeeorders_domain_order_coffeeorders_domain_order",
+      "toNode": "n_src_coffeeorders_domain_order_coffeeorders_domain_order_ordername",
+      "label": "defines [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_domain_order_coffeeorders_domain_order_src_coffeeorders_domain_order_coffeeorders_domain_order_total",
+      "fromNode": "n_src_coffeeorders_domain_order_coffeeorders_domain_order",
+      "toNode": "n_src_coffeeorders_domain_order_coffeeorders_domain_order_total",
+      "label": "defines [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_api_features_orders_createorder_createorderhandler_coffeeorders_api_features_orders_createorder_createorderhandler_handle_src_coffeeorders_domain_order_coffeeorders_domain_order",
+      "fromNode": "n_src_coffeeorders_api_features_orders_createorder_createorderhandler_coffeeorders_api_features_orders_createorder_createorderhandler_handle",
+      "toNode": "n_src_coffeeorders_domain_order_coffeeorders_domain_order",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_infrastructure_applicationdbcontext_coffeeorders_infrastructure_applicationdbcontext_src_coffeeorders_domain_order_coffeeorders_domain_order",
+      "fromNode": "n_src_coffeeorders_infrastructure_applicationdbcontext_coffeeorders_infrastructure_applicationdbcontext",
+      "toNode": "n_src_coffeeorders_domain_order_coffeeorders_domain_order",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_infrastructure_configurations_orderconfiguration_coffeeorders_infrastructure_configurations_orderconfiguration_src_coffeeorders_domain_order_coffeeorders_domain_order",
+      "fromNode": "n_src_coffeeorders_infrastructure_configurations_orderconfiguration_coffeeorders_infrastructure_configurations_orderconfiguration",
+      "toNode": "n_src_coffeeorders_domain_order_coffeeorders_domain_order",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_infrastructure_configurations_orderconfiguration_coffeeorders_infrastructure_configurations_orderconfiguration_configure_src_coffeeorders_domain_order_coffeeorders_domain_order",
+      "fromNode": "n_src_coffeeorders_infrastructure_configurations_orderconfiguration_coffeeorders_infrastructure_configurations_orderconfiguration_configure",
+      "toNode": "n_src_coffeeorders_domain_order_coffeeorders_domain_order",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_domain_order_src_coffeeorders_domain_order_coffeeorders_domain_order",
+      "fromNode": "n_src_coffeeorders_domain_order",
+      "toNode": "n_src_coffeeorders_domain_order_coffeeorders_domain_order",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_infrastructure_configurations_coffeeconfiguration_coffeeorders_infrastructure_configurations_coffeeconfiguration_ientitytypeconfiguration",
+      "fromNode": "n_src_coffeeorders_infrastructure_configurations_coffeeconfiguration_coffeeorders_infrastructure_configurations_coffeeconfiguration",
+      "toNode": "n_ientitytypeconfiguration",
+      "label": "implements [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_infrastructure_configurations_coffeeconfiguration_src_coffeeorders_infrastructure_configurations_coffeeconfiguration_coffeeorders_infrastructure_configurations_coffeeconfiguration",
+      "fromNode": "n_src_coffeeorders_infrastructure_configurations_coffeeconfiguration",
+      "toNode": "n_src_coffeeorders_infrastructure_configurations_coffeeconfiguration_coffeeorders_infrastructure_configurations_coffeeconfiguration",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_infrastructure_configurations_coffeeconfiguration_coffeeorders_infrastructure_configurations_coffeeconfiguration_src_coffeeorders_infrastructure_configurations_coffeeconfiguration_coffeeorders_infrastructure_configurations_coffeeconfiguration_configure",
+      "fromNode": "n_src_coffeeorders_infrastructure_configurations_coffeeconfiguration_coffeeorders_infrastructure_configurations_coffeeconfiguration",
+      "toNode": "n_src_coffeeorders_infrastructure_configurations_coffeeconfiguration_coffeeorders_infrastructure_configurations_coffeeconfiguration_configure",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_infrastructure_configurations_orderconfiguration_coffeeorders_infrastructure_configurations_orderconfiguration_ientitytypeconfiguration",
+      "fromNode": "n_src_coffeeorders_infrastructure_configurations_orderconfiguration_coffeeorders_infrastructure_configurations_orderconfiguration",
+      "toNode": "n_ientitytypeconfiguration",
+      "label": "implements [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_infrastructure_configurations_orderconfiguration_src_coffeeorders_infrastructure_configurations_orderconfiguration_coffeeorders_infrastructure_configurations_orderconfiguration",
+      "fromNode": "n_src_coffeeorders_infrastructure_configurations_orderconfiguration",
+      "toNode": "n_src_coffeeorders_infrastructure_configurations_orderconfiguration_coffeeorders_infrastructure_configurations_orderconfiguration",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_infrastructure_configurations_orderconfiguration_coffeeorders_infrastructure_configurations_orderconfiguration_src_coffeeorders_infrastructure_configurations_orderconfiguration_coffeeorders_infrastructure_configurations_orderconfiguration_configure",
+      "fromNode": "n_src_coffeeorders_infrastructure_configurations_orderconfiguration_coffeeorders_infrastructure_configurations_orderconfiguration",
+      "toNode": "n_src_coffeeorders_infrastructure_configurations_orderconfiguration_coffeeorders_infrastructure_configurations_orderconfiguration_configure",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_api_features_coffees_getcoffees_getcoffeehandler_src_coffeeorders_api_features_coffees_getcoffees_getcoffeehandler_coffeeorders_api_features_coffees_getcoffees_getcoffeehandler",
+      "fromNode": "n_src_coffeeorders_api_features_coffees_getcoffees_getcoffeehandler",
+      "toNode": "n_src_coffeeorders_api_features_coffees_getcoffees_getcoffeehandler_coffeeorders_api_features_coffees_getcoffees_getcoffeehandler",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_api_features_coffees_getcoffees_getcoffeehandler_coffeeorders_api_features_coffees_getcoffees_getcoffeehandler_src_coffeeorders_api_features_coffees_getcoffees_getcoffeehandler_coffeeorders_api_features_coffees_getcoffees_getcoffeehandler_handle",
+      "fromNode": "n_src_coffeeorders_api_features_coffees_getcoffees_getcoffeehandler_coffeeorders_api_features_coffees_getcoffees_getcoffeehandler",
+      "toNode": "n_src_coffeeorders_api_features_coffees_getcoffees_getcoffeehandler_coffeeorders_api_features_coffees_getcoffees_getcoffeehandler_handle",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_api_features_coffees_getcoffees_getcoffeesendpoint_coffeeorders_api_features_coffees_getcoffees_getcoffeesendpoint_icartermodule",
+      "fromNode": "n_src_coffeeorders_api_features_coffees_getcoffees_getcoffeesendpoint_coffeeorders_api_features_coffees_getcoffees_getcoffeesendpoint",
+      "toNode": "n_icartermodule",
+      "label": "implements [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_api_features_coffees_getcoffees_getcoffeesendpoint_src_coffeeorders_api_features_coffees_getcoffees_getcoffeesendpoint_coffeeorders_api_features_coffees_getcoffees_getcoffeesendpoint",
+      "fromNode": "n_src_coffeeorders_api_features_coffees_getcoffees_getcoffeesendpoint",
+      "toNode": "n_src_coffeeorders_api_features_coffees_getcoffees_getcoffeesendpoint_coffeeorders_api_features_coffees_getcoffees_getcoffeesendpoint",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_api_features_coffees_getcoffees_getcoffeesendpoint_coffeeorders_api_features_coffees_getcoffees_getcoffeesendpoint_src_coffeeorders_api_features_coffees_getcoffees_getcoffeesendpoint_coffeeorders_api_features_coffees_getcoffees_getcoffeesendpoint_addroutes",
+      "fromNode": "n_src_coffeeorders_api_features_coffees_getcoffees_getcoffeesendpoint_coffeeorders_api_features_coffees_getcoffees_getcoffeesendpoint",
+      "toNode": "n_src_coffeeorders_api_features_coffees_getcoffees_getcoffeesendpoint_coffeeorders_api_features_coffees_getcoffees_getcoffeesendpoint_addroutes",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_api_features_coffees_getcoffees_getcoffeesendpoint_coffeeorders_api_features_coffees_getcoffees_getcoffeesresponse_paginationresponse",
+      "fromNode": "n_src_coffeeorders_api_features_coffees_getcoffees_getcoffeesendpoint_coffeeorders_api_features_coffees_getcoffees_getcoffeesresponse",
+      "toNode": "n_paginationresponse",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_api_features_coffees_getcoffees_getcoffeesendpoint_coffeeorders_api_features_coffees_getcoffees_getcoffeesresponse_coffeedto",
+      "fromNode": "n_src_coffeeorders_api_features_coffees_getcoffees_getcoffeesendpoint_coffeeorders_api_features_coffees_getcoffees_getcoffeesresponse",
+      "toNode": "n_coffeedto",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_api_features_coffees_getcoffees_getcoffeehandler_coffeeorders_api_features_coffees_getcoffees_getcoffeehandler_handle_src_coffeeorders_api_features_coffees_getcoffees_getcoffeesendpoint_coffeeorders_api_features_coffees_getcoffees_getcoffeesresponse",
+      "fromNode": "n_src_coffeeorders_api_features_coffees_getcoffees_getcoffeehandler_coffeeorders_api_features_coffees_getcoffees_getcoffeehandler_handle",
+      "toNode": "n_src_coffeeorders_api_features_coffees_getcoffees_getcoffeesendpoint_coffeeorders_api_features_coffees_getcoffees_getcoffeesresponse",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_api_features_coffees_getcoffees_getcoffeesendpoint_coffeeorders_api_features_coffees_getcoffees_getcoffeesendpoint_addroutes_src_coffeeorders_api_features_coffees_getcoffees_getcoffeesendpoint_coffeeorders_api_features_coffees_getcoffees_getcoffeesresponse",
+      "fromNode": "n_src_coffeeorders_api_features_coffees_getcoffees_getcoffeesendpoint_coffeeorders_api_features_coffees_getcoffees_getcoffeesendpoint_addroutes",
+      "toNode": "n_src_coffeeorders_api_features_coffees_getcoffees_getcoffeesendpoint_coffeeorders_api_features_coffees_getcoffees_getcoffeesresponse",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_api_features_coffees_getcoffees_getcoffeesendpoint_src_coffeeorders_api_features_coffees_getcoffees_getcoffeesendpoint_coffeeorders_api_features_coffees_getcoffees_getcoffeesresponse",
+      "fromNode": "n_src_coffeeorders_api_features_coffees_getcoffees_getcoffeesendpoint",
+      "toNode": "n_src_coffeeorders_api_features_coffees_getcoffees_getcoffeesendpoint_coffeeorders_api_features_coffees_getcoffees_getcoffeesresponse",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_api_features_coffees_getcoffees_getcoffeesquery_coffeeorders_api_features_coffees_getcoffees_getcoffeesquery_src_coffeeorders_api_shared_pagination_paginationrequest_coffeeorders_api_shared_pagination_paginationrequest",
+      "fromNode": "n_src_coffeeorders_api_features_coffees_getcoffees_getcoffeesquery_coffeeorders_api_features_coffees_getcoffees_getcoffeesquery",
+      "toNode": "n_src_coffeeorders_api_shared_pagination_paginationrequest_coffeeorders_api_shared_pagination_paginationrequest",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_api_features_coffees_getcoffees_getcoffeehandler_coffeeorders_api_features_coffees_getcoffees_getcoffeehandler_handle_src_coffeeorders_api_features_coffees_getcoffees_getcoffeesquery_coffeeorders_api_features_coffees_getcoffees_getcoffeesquery",
+      "fromNode": "n_src_coffeeorders_api_features_coffees_getcoffees_getcoffeehandler_coffeeorders_api_features_coffees_getcoffees_getcoffeehandler_handle",
+      "toNode": "n_src_coffeeorders_api_features_coffees_getcoffees_getcoffeesquery_coffeeorders_api_features_coffees_getcoffees_getcoffeesquery",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_api_features_coffees_getcoffees_getcoffeesquery_src_coffeeorders_api_features_coffees_getcoffees_getcoffeesquery_coffeeorders_api_features_coffees_getcoffees_getcoffeesquery",
+      "fromNode": "n_src_coffeeorders_api_features_coffees_getcoffees_getcoffeesquery",
+      "toNode": "n_src_coffeeorders_api_features_coffees_getcoffees_getcoffeesquery_coffeeorders_api_features_coffees_getcoffees_getcoffeesquery",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_api_features_coffees_getcoffees_getcoffeesendpoint_coffeeorders_api_features_coffees_getcoffees_getcoffeesendpoint_addroutes_src_coffeeorders_api_features_coffees_getcoffees_getcoffeesquery_coffeeorders_api_features_coffees_getcoffees_getcoffeesquery",
+      "fromNode": "n_src_coffeeorders_api_features_coffees_getcoffees_getcoffeesendpoint_coffeeorders_api_features_coffees_getcoffees_getcoffeesendpoint_addroutes",
+      "toNode": "n_src_coffeeorders_api_features_coffees_getcoffees_getcoffeesquery_coffeeorders_api_features_coffees_getcoffees_getcoffeesquery",
+      "label": "calls [INFERRED]"
+    },
+    {
+      "id": "e_src_coffeeorders_api_shared_pagination_paginationrequest_src_coffeeorders_api_shared_pagination_paginationrequest_coffeeorders_api_shared_pagination_paginationrequest",
+      "fromNode": "n_src_coffeeorders_api_shared_pagination_paginationrequest",
+      "toNode": "n_src_coffeeorders_api_shared_pagination_paginationrequest_coffeeorders_api_shared_pagination_paginationrequest",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_api_features_coffees_getcoffees_getcoffeesendpoint_coffeeorders_api_features_coffees_getcoffees_getcoffeesendpoint_addroutes_src_coffeeorders_api_shared_pagination_paginationrequest_coffeeorders_api_shared_pagination_paginationrequest",
+      "fromNode": "n_src_coffeeorders_api_features_coffees_getcoffees_getcoffeesendpoint_coffeeorders_api_features_coffees_getcoffees_getcoffeesendpoint_addroutes",
+      "toNode": "n_src_coffeeorders_api_shared_pagination_paginationrequest_coffeeorders_api_shared_pagination_paginationrequest",
+      "label": "calls [INFERRED]"
+    },
+    {
+      "id": "e_src_coffeeorders_api_features_orders_getorders_getordersendpoint_coffeeorders_api_features_orders_getorders_getordersendpoint_addroutes_src_coffeeorders_api_shared_pagination_paginationrequest_coffeeorders_api_shared_pagination_paginationrequest",
+      "fromNode": "n_src_coffeeorders_api_features_orders_getorders_getordersendpoint_coffeeorders_api_features_orders_getorders_getordersendpoint_addroutes",
+      "toNode": "n_src_coffeeorders_api_shared_pagination_paginationrequest_coffeeorders_api_shared_pagination_paginationrequest",
+      "label": "calls [INFERRED]"
+    },
+    {
+      "id": "e_src_coffeeorders_api_shared_pagination_paginationresponse_coffeeorders_api_shared_pagination_paginationresponse_1_ienumerable",
+      "fromNode": "n_src_coffeeorders_api_shared_pagination_paginationresponse_coffeeorders_api_shared_pagination_paginationresponse_1",
+      "toNode": "n_ienumerable",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_api_shared_pagination_paginationresponse_coffeeorders_api_shared_pagination_paginationresponse_1_src_coffeeorders_api_shared_pagination_paginationresponse_coffeeorders_api_shared_pagination_paginationresponse_1_pagenumber",
+      "fromNode": "n_src_coffeeorders_api_shared_pagination_paginationresponse_coffeeorders_api_shared_pagination_paginationresponse_1",
+      "toNode": "n_src_coffeeorders_api_shared_pagination_paginationresponse_coffeeorders_api_shared_pagination_paginationresponse_1_pagenumber",
+      "label": "defines [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_api_shared_pagination_paginationresponse_coffeeorders_api_shared_pagination_paginationresponse_1_src_coffeeorders_api_shared_pagination_paginationresponse_coffeeorders_api_shared_pagination_paginationresponse_1_pagesize",
+      "fromNode": "n_src_coffeeorders_api_shared_pagination_paginationresponse_coffeeorders_api_shared_pagination_paginationresponse_1",
+      "toNode": "n_src_coffeeorders_api_shared_pagination_paginationresponse_coffeeorders_api_shared_pagination_paginationresponse_1_pagesize",
+      "label": "defines [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_api_shared_pagination_paginationresponse_coffeeorders_api_shared_pagination_paginationresponse_1_src_coffeeorders_api_shared_pagination_paginationresponse_coffeeorders_api_shared_pagination_paginationresponse_1_count",
+      "fromNode": "n_src_coffeeorders_api_shared_pagination_paginationresponse_coffeeorders_api_shared_pagination_paginationresponse_1",
+      "toNode": "n_src_coffeeorders_api_shared_pagination_paginationresponse_coffeeorders_api_shared_pagination_paginationresponse_1_count",
+      "label": "defines [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_api_shared_pagination_paginationresponse_coffeeorders_api_shared_pagination_paginationresponse_1_src_coffeeorders_api_shared_pagination_paginationresponse_coffeeorders_api_shared_pagination_paginationresponse_1_data",
+      "fromNode": "n_src_coffeeorders_api_shared_pagination_paginationresponse_coffeeorders_api_shared_pagination_paginationresponse_1",
+      "toNode": "n_src_coffeeorders_api_shared_pagination_paginationresponse_coffeeorders_api_shared_pagination_paginationresponse_1_data",
+      "label": "defines [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_api_shared_pagination_paginationresponse_src_coffeeorders_api_shared_pagination_paginationresponse_coffeeorders_api_shared_pagination_paginationresponse_1",
+      "fromNode": "n_src_coffeeorders_api_shared_pagination_paginationresponse",
+      "toNode": "n_src_coffeeorders_api_shared_pagination_paginationresponse_coffeeorders_api_shared_pagination_paginationresponse_1",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_api_features_coffees_getcoffees_getcoffeehandler_coffeeorders_api_features_coffees_getcoffees_getcoffeehandler_handle_src_coffeeorders_api_shared_pagination_paginationresponse_coffeeorders_api_shared_pagination_paginationresponse_1",
+      "fromNode": "n_src_coffeeorders_api_features_coffees_getcoffees_getcoffeehandler_coffeeorders_api_features_coffees_getcoffees_getcoffeehandler_handle",
+      "toNode": "n_src_coffeeorders_api_shared_pagination_paginationresponse_coffeeorders_api_shared_pagination_paginationresponse_1",
+      "label": "calls [INFERRED]"
+    },
+    {
+      "id": "e_src_coffeeorders_api_features_orders_getorders_getordershandler_coffeeorders_api_features_orders_getorders_getordershandler_handle_src_coffeeorders_api_shared_pagination_paginationresponse_coffeeorders_api_shared_pagination_paginationresponse_1",
+      "fromNode": "n_src_coffeeorders_api_features_orders_getorders_getordershandler_coffeeorders_api_features_orders_getorders_getordershandler_handle",
+      "toNode": "n_src_coffeeorders_api_shared_pagination_paginationresponse_coffeeorders_api_shared_pagination_paginationresponse_1",
+      "label": "calls [INFERRED]"
+    },
+    {
+      "id": "e_src_coffeeorders_infrastructure_applicationdbcontext_coffeeorders_infrastructure_applicationdbcontext_dbcontextoptions",
+      "fromNode": "n_src_coffeeorders_infrastructure_applicationdbcontext_coffeeorders_infrastructure_applicationdbcontext",
+      "toNode": "n_dbcontextoptions",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_infrastructure_applicationdbcontext_coffeeorders_infrastructure_applicationdbcontext_dbset",
+      "fromNode": "n_src_coffeeorders_infrastructure_applicationdbcontext_coffeeorders_infrastructure_applicationdbcontext",
+      "toNode": "n_dbset",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_infrastructure_applicationdbcontext_coffeeorders_infrastructure_applicationdbcontext_src_coffeeorders_infrastructure_applicationdbcontext_coffeeorders_infrastructure_applicationdbcontext_coffees",
+      "fromNode": "n_src_coffeeorders_infrastructure_applicationdbcontext_coffeeorders_infrastructure_applicationdbcontext",
+      "toNode": "n_src_coffeeorders_infrastructure_applicationdbcontext_coffeeorders_infrastructure_applicationdbcontext_coffees",
+      "label": "defines [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_infrastructure_applicationdbcontext_coffeeorders_infrastructure_applicationdbcontext_src_coffeeorders_infrastructure_applicationdbcontext_coffeeorders_infrastructure_applicationdbcontext_orders",
+      "fromNode": "n_src_coffeeorders_infrastructure_applicationdbcontext_coffeeorders_infrastructure_applicationdbcontext",
+      "toNode": "n_src_coffeeorders_infrastructure_applicationdbcontext_coffeeorders_infrastructure_applicationdbcontext_orders",
+      "label": "defines [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_infrastructure_dependencyinjection_coffeeorders_infrastructure_dependencyinjection_addinfrastructureservices_src_coffeeorders_infrastructure_applicationdbcontext_coffeeorders_infrastructure_applicationdbcontext",
+      "fromNode": "n_src_coffeeorders_infrastructure_dependencyinjection_coffeeorders_infrastructure_dependencyinjection_addinfrastructureservices",
+      "toNode": "n_src_coffeeorders_infrastructure_applicationdbcontext_coffeeorders_infrastructure_applicationdbcontext",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_infrastructure_extensions_databaseextensions_coffeeorders_infrastructure_extensions_databaseextensions_initializedatabaseasync_src_coffeeorders_infrastructure_applicationdbcontext_coffeeorders_infrastructure_applicationdbcontext",
+      "fromNode": "n_src_coffeeorders_infrastructure_extensions_databaseextensions_coffeeorders_infrastructure_extensions_databaseextensions_initializedatabaseasync",
+      "toNode": "n_src_coffeeorders_infrastructure_applicationdbcontext_coffeeorders_infrastructure_applicationdbcontext",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_api_features_orders_clearallorders_clearallordershandler_coffeeorders_api_features_orders_clearallorders_clearallordershandler_handle_src_coffeeorders_infrastructure_applicationdbcontext_coffeeorders_infrastructure_applicationdbcontext",
+      "fromNode": "n_src_coffeeorders_api_features_orders_clearallorders_clearallordershandler_coffeeorders_api_features_orders_clearallorders_clearallordershandler_handle",
+      "toNode": "n_src_coffeeorders_infrastructure_applicationdbcontext_coffeeorders_infrastructure_applicationdbcontext",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_infrastructure_applicationdbcontext_coffeeorders_infrastructure_applicationdbcontext_dbcontext",
+      "fromNode": "n_src_coffeeorders_infrastructure_applicationdbcontext_coffeeorders_infrastructure_applicationdbcontext",
+      "toNode": "n_dbcontext",
+      "label": "inherits [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_infrastructure_applicationdbcontext_src_coffeeorders_infrastructure_applicationdbcontext_coffeeorders_infrastructure_applicationdbcontext",
+      "fromNode": "n_src_coffeeorders_infrastructure_applicationdbcontext",
+      "toNode": "n_src_coffeeorders_infrastructure_applicationdbcontext_coffeeorders_infrastructure_applicationdbcontext",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_infrastructure_applicationdbcontext_coffeeorders_infrastructure_applicationdbcontext_src_coffeeorders_infrastructure_applicationdbcontext_coffeeorders_infrastructure_applicationdbcontext_onmodelcreating",
+      "fromNode": "n_src_coffeeorders_infrastructure_applicationdbcontext_coffeeorders_infrastructure_applicationdbcontext",
+      "toNode": "n_src_coffeeorders_infrastructure_applicationdbcontext_coffeeorders_infrastructure_applicationdbcontext_onmodelcreating",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_infrastructure_dependencyinjection_src_coffeeorders_infrastructure_dependencyinjection_coffeeorders_infrastructure_dependencyinjection",
+      "fromNode": "n_src_coffeeorders_infrastructure_dependencyinjection",
+      "toNode": "n_src_coffeeorders_infrastructure_dependencyinjection_coffeeorders_infrastructure_dependencyinjection",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_infrastructure_dependencyinjection_coffeeorders_infrastructure_dependencyinjection_src_coffeeorders_infrastructure_dependencyinjection_coffeeorders_infrastructure_dependencyinjection_addinfrastructureservices",
+      "fromNode": "n_src_coffeeorders_infrastructure_dependencyinjection_coffeeorders_infrastructure_dependencyinjection",
+      "toNode": "n_src_coffeeorders_infrastructure_dependencyinjection_coffeeorders_infrastructure_dependencyinjection_addinfrastructureservices",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_infrastructure_dependencyinjection_coffeeorders_infrastructure_dependencyinjection_addinfrastructureservices_src_coffeeorders_infrastructure_interceptors_auditableentityinterceptor_coffeeorders_infrastructure_interceptors_auditableentityinterceptor",
+      "fromNode": "n_src_coffeeorders_infrastructure_dependencyinjection_coffeeorders_infrastructure_dependencyinjection_addinfrastructureservices",
+      "toNode": "n_src_coffeeorders_infrastructure_interceptors_auditableentityinterceptor_coffeeorders_infrastructure_interceptors_auditableentityinterceptor",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_infrastructure_interceptors_auditableentityinterceptor_coffeeorders_infrastructure_interceptors_auditableentityinterceptor_savechangesinterceptor",
+      "fromNode": "n_src_coffeeorders_infrastructure_interceptors_auditableentityinterceptor_coffeeorders_infrastructure_interceptors_auditableentityinterceptor",
+      "toNode": "n_savechangesinterceptor",
+      "label": "inherits [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_infrastructure_interceptors_auditableentityinterceptor_src_coffeeorders_infrastructure_interceptors_auditableentityinterceptor_coffeeorders_infrastructure_interceptors_auditableentityinterceptor",
+      "fromNode": "n_src_coffeeorders_infrastructure_interceptors_auditableentityinterceptor",
+      "toNode": "n_src_coffeeorders_infrastructure_interceptors_auditableentityinterceptor_coffeeorders_infrastructure_interceptors_auditableentityinterceptor",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_infrastructure_interceptors_auditableentityinterceptor_coffeeorders_infrastructure_interceptors_auditableentityinterceptor_src_coffeeorders_infrastructure_interceptors_auditableentityinterceptor_coffeeorders_infrastructure_interceptors_auditableentityinterceptor_savingchanges",
+      "fromNode": "n_src_coffeeorders_infrastructure_interceptors_auditableentityinterceptor_coffeeorders_infrastructure_interceptors_auditableentityinterceptor",
+      "toNode": "n_src_coffeeorders_infrastructure_interceptors_auditableentityinterceptor_coffeeorders_infrastructure_interceptors_auditableentityinterceptor_savingchanges",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_infrastructure_interceptors_auditableentityinterceptor_coffeeorders_infrastructure_interceptors_auditableentityinterceptor_src_coffeeorders_infrastructure_interceptors_auditableentityinterceptor_coffeeorders_infrastructure_interceptors_auditableentityinterceptor_savingchangesasync",
+      "fromNode": "n_src_coffeeorders_infrastructure_interceptors_auditableentityinterceptor_coffeeorders_infrastructure_interceptors_auditableentityinterceptor",
+      "toNode": "n_src_coffeeorders_infrastructure_interceptors_auditableentityinterceptor_coffeeorders_infrastructure_interceptors_auditableentityinterceptor_savingchangesasync",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_infrastructure_interceptors_auditableentityinterceptor_coffeeorders_infrastructure_interceptors_auditableentityinterceptor_src_coffeeorders_infrastructure_interceptors_auditableentityinterceptor_coffeeorders_infrastructure_interceptors_auditableentityinterceptor_updateentities",
+      "fromNode": "n_src_coffeeorders_infrastructure_interceptors_auditableentityinterceptor_coffeeorders_infrastructure_interceptors_auditableentityinterceptor",
+      "toNode": "n_src_coffeeorders_infrastructure_interceptors_auditableentityinterceptor_coffeeorders_infrastructure_interceptors_auditableentityinterceptor_updateentities",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_api_shared_middleware_exceptionhandlingmiddleware_src_coffeeorders_api_shared_middleware_exceptionhandlingmiddleware_coffeeorders_api_shared_middleware_exceptionhandlingmiddleware",
+      "fromNode": "n_src_coffeeorders_api_shared_middleware_exceptionhandlingmiddleware",
+      "toNode": "n_src_coffeeorders_api_shared_middleware_exceptionhandlingmiddleware_coffeeorders_api_shared_middleware_exceptionhandlingmiddleware",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_api_features_orders_createorder_createorderendpoint_coffeeorders_api_features_orders_createorder_createorderendpoint_addroutes_src_coffeeorders_api_shared_middleware_validationmiddleware_coffeeorders_api_shared_middleware_validationmiddleware_1",
+      "fromNode": "n_src_coffeeorders_api_features_orders_createorder_createorderendpoint_coffeeorders_api_features_orders_createorder_createorderendpoint_addroutes",
+      "toNode": "n_src_coffeeorders_api_shared_middleware_validationmiddleware_coffeeorders_api_shared_middleware_validationmiddleware_1",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_api_shared_middleware_validationmiddleware_coffeeorders_api_shared_middleware_validationmiddleware_1_iendpointfilter",
+      "fromNode": "n_src_coffeeorders_api_shared_middleware_validationmiddleware_coffeeorders_api_shared_middleware_validationmiddleware_1",
+      "toNode": "n_iendpointfilter",
+      "label": "implements [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_api_shared_middleware_validationmiddleware_src_coffeeorders_api_shared_middleware_validationmiddleware_coffeeorders_api_shared_middleware_validationmiddleware_1",
+      "fromNode": "n_src_coffeeorders_api_shared_middleware_validationmiddleware",
+      "toNode": "n_src_coffeeorders_api_shared_middleware_validationmiddleware_coffeeorders_api_shared_middleware_validationmiddleware_1",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_api_shared_middleware_validationmiddleware_coffeeorders_api_shared_middleware_validationmiddleware_1_src_coffeeorders_api_shared_middleware_validationmiddleware_coffeeorders_api_shared_middleware_validationmiddleware_1_invokeasync",
+      "fromNode": "n_src_coffeeorders_api_shared_middleware_validationmiddleware_coffeeorders_api_shared_middleware_validationmiddleware_1",
+      "toNode": "n_src_coffeeorders_api_shared_middleware_validationmiddleware_coffeeorders_api_shared_middleware_validationmiddleware_1_invokeasync",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_api_dependencyinjection_src_coffeeorders_api_dependencyinjection_coffeeorders_api_dependencyinjection",
+      "fromNode": "n_src_coffeeorders_api_dependencyinjection",
+      "toNode": "n_src_coffeeorders_api_dependencyinjection_coffeeorders_api_dependencyinjection",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_api_dependencyinjection_coffeeorders_api_dependencyinjection_src_coffeeorders_api_dependencyinjection_coffeeorders_api_dependencyinjection_useapiservices",
+      "fromNode": "n_src_coffeeorders_api_dependencyinjection_coffeeorders_api_dependencyinjection",
+      "toNode": "n_src_coffeeorders_api_dependencyinjection_coffeeorders_api_dependencyinjection_useapiservices",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_api_dependencyinjection_coffeeorders_api_dependencyinjection_src_coffeeorders_api_dependencyinjection_coffeeorders_api_dependencyinjection_addapiservices",
+      "fromNode": "n_src_coffeeorders_api_dependencyinjection_coffeeorders_api_dependencyinjection",
+      "toNode": "n_src_coffeeorders_api_dependencyinjection_coffeeorders_api_dependencyinjection_addapiservices",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_api_features_orders_createorder_createorderendpoint_coffeeorders_api_features_orders_createorder_createorderendpoint_addroutes_iendpointroutebuilder",
+      "fromNode": "n_src_coffeeorders_api_features_orders_createorder_createorderendpoint_coffeeorders_api_features_orders_createorder_createorderendpoint_addroutes",
+      "toNode": "n_iendpointroutebuilder",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_infrastructure_applicationdbcontext_coffeeorders_infrastructure_applicationdbcontext_onmodelcreating_modelbuilder",
+      "fromNode": "n_src_coffeeorders_infrastructure_applicationdbcontext_coffeeorders_infrastructure_applicationdbcontext_onmodelcreating",
+      "toNode": "n_modelbuilder",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_infrastructure_migrations_20261014080243_initialcreate_coffeeorders_infrastructure_migrations_initialcreate_down_migrationbuilder",
+      "fromNode": "n_src_coffeeorders_infrastructure_migrations_20261014080243_initialcreate_coffeeorders_infrastructure_migrations_initialcreate_down",
+      "toNode": "n_migrationbuilder",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_infrastructure_migrations_20261014080243_initialcreate_coffeeorders_infrastructure_migrations_initialcreate_up_datetime",
+      "fromNode": "n_src_coffeeorders_infrastructure_migrations_20261014080243_initialcreate_coffeeorders_infrastructure_migrations_initialcreate_up",
+      "toNode": "n_datetime",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_infrastructure_migrations_20261014080243_initialcreate_coffeeorders_infrastructure_migrations_initialcreate_up_guid",
+      "fromNode": "n_src_coffeeorders_infrastructure_migrations_20261014080243_initialcreate_coffeeorders_infrastructure_migrations_initialcreate_up",
+      "toNode": "n_guid",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_infrastructure_migrations_20261014080243_initialcreate_coffeeorders_infrastructure_migrations_initialcreate_up_migrationbuilder",
+      "fromNode": "n_src_coffeeorders_infrastructure_migrations_20261014080243_initialcreate_coffeeorders_infrastructure_migrations_initialcreate_up",
+      "toNode": "n_migrationbuilder",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_infrastructure_migrations_20261014080243_initialcreate_designer_coffeeorders_infrastructure_migrations_initialcreate_buildtargetmodel_datetime",
+      "fromNode": "n_src_coffeeorders_infrastructure_migrations_20261014080243_initialcreate_designer_coffeeorders_infrastructure_migrations_initialcreate_buildtargetmodel",
+      "toNode": "n_datetime",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_infrastructure_migrations_20261014080243_initialcreate_designer_coffeeorders_infrastructure_migrations_initialcreate_buildtargetmodel_guid",
+      "fromNode": "n_src_coffeeorders_infrastructure_migrations_20261014080243_initialcreate_designer_coffeeorders_infrastructure_migrations_initialcreate_buildtargetmodel",
+      "toNode": "n_guid",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_infrastructure_migrations_20261014080243_initialcreate_designer_coffeeorders_infrastructure_migrations_initialcreate_buildtargetmodel_modelbuilder",
+      "fromNode": "n_src_coffeeorders_infrastructure_migrations_20261014080243_initialcreate_designer_coffeeorders_infrastructure_migrations_initialcreate_buildtargetmodel",
+      "toNode": "n_modelbuilder",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_infrastructure_migrations_20261014081200_columnsizes_coffeeorders_infrastructure_migrations_columnsizes_down_migrationbuilder",
+      "fromNode": "n_src_coffeeorders_infrastructure_migrations_20261014081200_columnsizes_coffeeorders_infrastructure_migrations_columnsizes_down",
+      "toNode": "n_migrationbuilder",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_infrastructure_migrations_20261014081200_columnsizes_coffeeorders_infrastructure_migrations_columnsizes_up_migrationbuilder",
+      "fromNode": "n_src_coffeeorders_infrastructure_migrations_20261014081200_columnsizes_coffeeorders_infrastructure_migrations_columnsizes_up",
+      "toNode": "n_migrationbuilder",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_infrastructure_migrations_20261014081200_columnsizes_designer_coffeeorders_infrastructure_migrations_columnsizes_buildtargetmodel_datetime",
+      "fromNode": "n_src_coffeeorders_infrastructure_migrations_20261014081200_columnsizes_designer_coffeeorders_infrastructure_migrations_columnsizes_buildtargetmodel",
+      "toNode": "n_datetime",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_infrastructure_migrations_20261014081200_columnsizes_designer_coffeeorders_infrastructure_migrations_columnsizes_buildtargetmodel_guid",
+      "fromNode": "n_src_coffeeorders_infrastructure_migrations_20261014081200_columnsizes_designer_coffeeorders_infrastructure_migrations_columnsizes_buildtargetmodel",
+      "toNode": "n_guid",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_infrastructure_migrations_20261014081200_columnsizes_designer_coffeeorders_infrastructure_migrations_columnsizes_buildtargetmodel_modelbuilder",
+      "fromNode": "n_src_coffeeorders_infrastructure_migrations_20261014081200_columnsizes_designer_coffeeorders_infrastructure_migrations_columnsizes_buildtargetmodel",
+      "toNode": "n_modelbuilder",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_infrastructure_migrations_applicationdbcontextmodelsnapshot_coffeeorders_infrastructure_migrations_applicationdbcontextmodelsnapshot_buildmodel_datetime",
+      "fromNode": "n_src_coffeeorders_infrastructure_migrations_applicationdbcontextmodelsnapshot_coffeeorders_infrastructure_migrations_applicationdbcontextmodelsnapshot_buildmodel",
+      "toNode": "n_datetime",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_infrastructure_migrations_applicationdbcontextmodelsnapshot_coffeeorders_infrastructure_migrations_applicationdbcontextmodelsnapshot_buildmodel_guid",
+      "fromNode": "n_src_coffeeorders_infrastructure_migrations_applicationdbcontextmodelsnapshot_coffeeorders_infrastructure_migrations_applicationdbcontextmodelsnapshot_buildmodel",
+      "toNode": "n_guid",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_src_coffeeorders_infrastructure_migrations_applicationdbcontextmodelsnapshot_coffeeorders_infrastructure_migrations_applicationdbcontextmodelsnapshot_buildmodel_modelbuilder",
+      "fromNode": "n_src_coffeeorders_infrastructure_migrations_applicationdbcontextmodelsnapshot_coffeeorders_infrastructure_migrations_applicationdbcontextmodelsnapshot_buildmodel",
+      "toNode": "n_modelbuilder",
+      "label": "references [EXTRACTED]"
+    }
+  ]
+}
