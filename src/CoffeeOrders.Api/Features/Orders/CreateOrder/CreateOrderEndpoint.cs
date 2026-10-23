@@ -32,14 +32,14 @@ public class CreateOrderEndpoint : ICarterModule
                         cancellationToken
                     );
 
-                    return Results.Ok(response);
+                    return Results.Created($"/api/orders/{response.Order.Id}", response);
                 }
             )
             .AddEndpointFilter<ValidationMiddleware<CreateOrderRequest>>()
             .WithName("CreateOrder")
             .WithSummary("Create Order")
             .WithDescription("Create a new order")
-            .Produces<CreateOrderResponse>()
+            .Produces<CreateOrderResponse>(StatusCodes.Status201Created)
             .ProducesProblem(StatusCodes.Status400BadRequest);
     }
 }
