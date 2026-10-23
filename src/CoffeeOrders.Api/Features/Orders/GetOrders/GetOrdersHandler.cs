@@ -20,7 +20,7 @@ public sealed class GetOrdersHandler
         if (searchTerm?.Length < minSearchLength)
             searchTerm = null;
 
-        var ordersQuery = dbContext.Orders.AsNoTracking().AsQueryable();
+        var ordersQuery = dbContext.Orders.AsNoTracking().AsQueryable().Where(o => o.IsActive);
 
         if (!string.IsNullOrWhiteSpace(searchTerm))
             ordersQuery = ordersQuery.Where(order =>
