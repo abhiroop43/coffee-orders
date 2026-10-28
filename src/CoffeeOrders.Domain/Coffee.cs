@@ -9,5 +9,5 @@ public class Coffee : Entity
     public required string SkuCode { get; set; }
     public string? Photo { get; set; }
 
-    public List<Order> Orders { get; set; } = [];
+    public ICollection<Order> Orders { get; } = new List<Order>();
 }

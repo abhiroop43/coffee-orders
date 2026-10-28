@@ -10,4 +10,6 @@ public class Order : Entity
     public required string Size { get; set; }
     public string Status { get; set; } = OrderStatus.Preparing;
     public Guid CoffeeId { get; set; }
+
+    public Coffee Coffee { get; private set; } = null!;
 }

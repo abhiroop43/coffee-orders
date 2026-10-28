@@ -7,6 +7,7 @@ public sealed record OrderDto(
     string Size,
     string Status,
     Guid CoffeeId,
+    CoffeeDto Coffee,
     string CreatedBy,
     DateTime CreatedDate,
     string UpdatedBy,

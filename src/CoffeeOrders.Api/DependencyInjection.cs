@@ -1,5 +1,7 @@
 using System.Reflection;
+using CoffeeOrders.Domain;
 using FluentValidation;
+using Mapster;
 using Scalar.AspNetCore;
 
 namespace CoffeeOrders.Api;
@@ -26,6 +28,8 @@ public static class DependencyInjection
         {
             opts.UseEntityFrameworkCoreTransactions();
         });
+
+        TypeAdapterConfig<Order, OrderDto>.NewConfig().Map(dest => dest.Coffee, src => src.Coffee);
 
         return services;
     }

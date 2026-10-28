@@ -121,11 +121,13 @@ namespace CoffeeOrders.Infrastructure.Migrations
 
             modelBuilder.Entity("CoffeeOrders.Domain.Order", b =>
                 {
-                    b.HasOne("CoffeeOrders.Domain.Coffee", null)
+                    b.HasOne("CoffeeOrders.Domain.Coffee", "Coffee")
                         .WithMany("Orders")
                         .HasForeignKey("CoffeeId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
+
+                    b.Navigation("Coffee");
                 });
 
             modelBuilder.Entity("CoffeeOrders.Domain.Coffee", b =>

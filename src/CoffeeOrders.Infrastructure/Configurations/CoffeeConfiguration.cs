@@ -18,9 +18,10 @@ public class CoffeeConfiguration : IEntityTypeConfiguration<Coffee>
 
         builder
             .HasMany(x => x.Orders)
-            .WithOne()
-            .HasForeignKey(o => o.CoffeeId)
-            .OnDelete(DeleteBehavior.Cascade);
+            .WithOne(x => x.Coffee)
+            .HasForeignKey(x => x.CoffeeId)
+            .IsRequired()
+            .OnDelete(DeleteBehavior.Restrict);
 
         builder.Property(x => x.CreatedBy).HasMaxLength(500);
         builder.Property(x => x.UpdatedBy).HasMaxLength(500);

@@ -24,7 +24,7 @@ public sealed class GetOrdersHandler
 
         if (!string.IsNullOrWhiteSpace(searchTerm))
             ordersQuery = ordersQuery.Where(order =>
-                EF.Functions.Like(order.OrderName, $"%%{searchTerm}")
+                EF.Functions.Like(order.OrderName, $"%{searchTerm}%")
             );
 
         var totalCount = await ordersQuery.LongCountAsync(cancellationToken);
