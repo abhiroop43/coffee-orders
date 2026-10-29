@@ -1,3 +1,3 @@
 namespace CoffeeOrders.Api.Features.Orders.GetOrderDetails;
 
-public class GetOrderDetailsQuery { }
+public sealed record GetOrderDetailsQuery(Guid OrderId);
