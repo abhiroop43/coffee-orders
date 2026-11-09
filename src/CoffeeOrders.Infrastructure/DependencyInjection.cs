@@ -21,7 +21,18 @@ public static class DependencyInjection
             (sp, options) =>
             {
                 options.AddInterceptors(sp.GetServices<ISaveChangesInterceptor>());
-                options.UseSqlServer(connectionString).EnableSensitiveDataLogging();
+                options
+                    .UseSqlServer(
+                        connectionString,
+                        sqlOptions =>
+                        {
+                            sqlOptions.EnableRetryOnFailure(5, TimeSpan.FromSeconds(15), null);
+
+                            // Gives the initial connection attempt more time to succeed
+                            sqlOptions.CommandTimeout(60);
+                        }
+                    )
+                    .EnableSensitiveDataLogging();
             }
         );
 
