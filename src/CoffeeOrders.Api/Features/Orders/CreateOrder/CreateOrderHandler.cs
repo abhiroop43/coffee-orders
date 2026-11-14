@@ -34,6 +34,6 @@ public sealed class CreateOrderHandler
             .FirstOrDefaultAsync(cancellationToken);
 
         var orderDto = order.Adapt<OrderDto>();
-        return new CreateOrderResponse(orderDto);
+        return new CreateOrderResponse(orderDto!);
     }
 }

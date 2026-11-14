@@ -12,7 +12,7 @@ public sealed record UpdateOrderRequest(
     Guid? CoffeeId
 );
 
-public sealed record UpdateOrderResponse(bool Success);
+public sealed record UpdateOrderResponse(OrderDto Data);
 
 public class UpdateOrderEndpoint : ICarterModule
 {
@@ -35,9 +35,13 @@ public class UpdateOrderEndpoint : ICarterModule
                         cancellationToken
                     );
 
-                    return response.Success ? Results.Ok() : Results.BadRequest();
+                    return Results.Ok(response);
                 }
             )
-            .AddEndpointFilter<ValidationMiddleware<UpdateOrderRequest>>();
+            .AddEndpointFilter<ValidationMiddleware<UpdateOrderRequest>>()
+            .WithName("UpdateOrder")
+            .WithSummary("Update Order")
+            .WithDescription("Update an existing order")
+            .Produces<UpdateOrderResponse>();
     }
 }

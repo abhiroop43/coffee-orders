@@ -1,3 +1,4 @@
+using CoffeeOrders.Api.Shared.Exceptions;
 using Mapster;
 
 namespace CoffeeOrders.Api.Features.Orders.UpdateOrder;
@@ -12,12 +13,14 @@ public sealed class UpdateOrderHandler
         CancellationToken cancellationToken
     )
     {
-        var currentOrder = await dbContext.Orders.FindAsync([command.Id], cancellationToken);
-        if (currentOrder is null)
-            throw new ArgumentException("Order not found");
-
+        var currentOrder = await dbContext.Orders.FindAsync([command.Id], cancellationToken) ?? throw new ArgumentException("Order not found");
         command.Adapt(currentOrder);
-        await dbContext.SaveChangesAsync(cancellationToken);
-        return new UpdateOrderResponse(true);
+        var savedRecords = await dbContext.SaveChangesAsync(cancellationToken);
+        if (savedRecords < 1)
+        {
+            throw new BadRequestException("Unable to update order. Please check the input or contact the administrator.");
+        }
+
+        return new UpdateOrderResponse(currentOrder.Adapt<OrderDto>());
     }
 }
